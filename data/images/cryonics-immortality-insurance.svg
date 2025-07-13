@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0E0E0;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="iceGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E6F3FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#87CEEB;stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <rect x="300" y="200" width="200" height="300" fill="url(#iceGradient)" stroke="#2F4F4F" stroke-width="6"/>
+  <rect x="310" y="210" width="180" height="280" fill="rgba(255,255,255,0.3)"/>
+
+  <g fill="#E6F3FF" opacity="0.8">
+    <path d="M320 220 L340 210 L360 220 L350 240 L330 240 Z"/>
+    <path d="M370 230 L390 220 L410 230 L400 250 L380 250 Z"/>
+    <path d="M320 470 L340 460 L360 470 L350 490 L330 490 Z"/>
+    <path d="M420 460 L440 450 L460 460 L450 480 L430 480 Z"/>
+  </g>
+
+  <g fill="#4682B4" opacity="0.7">
+    <ellipse cx="400" cy="280" rx="20" ry="25"/>
+    <rect x="385" y="305" width="30" height="60"/>
+    <rect x="390" y="365" width="20" height="40"/>
+    <rect x="370" y="320" width="20" height="30"/>
+    <rect x="410" y="320" width="20" height="30"/>
+    <rect x="385" y="405" width="12" height="25"/>
+    <rect x="403" y="405" width="12" height="25"/>
+  </g>
+
+  <rect x="520" y="200" width="80" height="50" fill="#000000" stroke="#2F4F4F" stroke-width="3"/>
+  <text x="560" y="225" text-anchor="middle" fill="#00FFFF" font-family="Arial" font-size="16" font-weight="bold">-196°C</text>
+  <text x="560" y="240" text-anchor="middle" fill="#00FFFF" font-family="Arial" font-size="12">LIQUID N2</text>
+
+  <rect x="150" y="300" width="120" height="150" fill="#2F4F4F" stroke="#4682B4" stroke-width="3"/>
+  <circle cx="180" cy="330" r="8" fill="#32CD32"/>
+  <circle cx="210" cy="330" r="8" fill="#FFD700"/>
+  <circle cx="240" cy="330" r="8" fill="#FF6347"/>
+  <text x="210" y="280" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12" font-weight="bold">CONTROL PANEL</text>
+  <rect x="170" y="350" width="60" height="5" fill="#00FFFF"/>
+  <rect x="170" y="360" width="50" height="5" fill="#00FFFF"/>
+  <rect x="170" y="370" width="40" height="5" fill="#00FFFF"/>
+  <rect x="170" y="380" width="55" height="5" fill="#00FFFF"/>
+  <text x="210" y="410" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">VITALS</text>
+  <text x="210" y="425" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">STABLE</text>
+
+  <rect x="550" y="300" width="100" height="80" fill="#2F4F4F" stroke="#4682B4" stroke-width="3"/>
+  <text x="600" y="325" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">MONITORING</text>
+  <g stroke="#32CD32" stroke-width="2" fill="none">
+    <path d="M570 340 Q580 330 590 340 Q600 350 610 340 Q620 330 630 340"/>
+    <path d="M570 355 Q580 345 590 355 Q600 365 610 355 Q620 345 630 355"/>
+  </g>
+  <text x="600" y="370" text-anchor="middle" fill="#32CD32" font-family="Arial" font-size="12">ACTIVE</text>
+
+  <rect x="50" y="500" width="300" height="60" fill="#4682B4" stroke="#2F4F4F" stroke-width="3"/>
+  <text x="200" y="520" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">PRESERVATION TIMELINE</text>
+  <rect x="70" y="530" width="60" height="5" fill="#32CD32"/>
+  <rect x="140" y="530" width="60" height="5" fill="#FFD700"/>
+  <rect x="210" y="530" width="60" height="5" fill="#FF6347"/>
+  <rect x="280" y="530" width="60" height="5" fill="#8A2BE2"/>
+  <text x="100" y="550" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">50 YEARS</text>
+  <text x="170" y="550" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">100 YEARS</text>
+  <text x="240" y="550" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">200 YEARS</text>
+  <text x="310" y="550" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="10">REVIVAL</text>
+
+  <rect x="450" y="450" width="120" height="100" fill="#ffffff" stroke="#2F4F4F" stroke-width="3"/>
+  <text x="510" y="475" text-anchor="middle" fill="#000000" font-family="Arial" font-size="14" font-weight="bold">CRYONICS</text>
+  <text x="510" y="490" text-anchor="middle" fill="#000000" font-family="Arial" font-size="14" font-weight="bold">INSURANCE</text>
+  <text x="510" y="505" text-anchor="middle" fill="#000000" font-family="Arial" font-size="12">PREMIUM</text>
+  <text x="510" y="520" text-anchor="middle" fill="#000000" font-family="Arial" font-size="12">COVERAGE</text>
+  <rect x="470" y="525" width="80" height="3" fill="#32CD32"/>
+  <rect x="470" y="532" width="60" height="3" fill="#32CD32"/>
+  <rect x="470" y="539" width="40" height="3" fill="#32CD32"/>
+
+  <rect x="600" y="450" width="100" height="80" fill="#2F4F4F" stroke="#4682B4" stroke-width="3"/>
+  <text x="650" y="475" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">RESEARCH</text>
+  <text x="650" y="490" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">FUNDING</text>
+  <circle cx="630" cy="505" r="8" fill="#FFD700"/>
+  <circle cx="650" cy="505" r="8" fill="#FFD700"/>
+  <circle cx="670" cy="505" r="8" fill="#FFD700"/>
+  <text x="650" y="525" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">REVIVAL TECH</text>
+
+  <g stroke="#8A2BE2" stroke-width="3" fill="none">
+    <path d="M100 200 Q120 180 140 200 Q160 220 180 200 Q200 180 220 200"/>
+    <path d="M100 200 Q120 220 140 200 Q160 180 180 200 Q200 220 220 200"/>
+    <circle cx="110" cy="190" r="3" fill="#8A2BE2"/>
+    <circle cx="130" cy="210" r="3" fill="#8A2BE2"/>
+    <circle cx="150" cy="190" r="3" fill="#8A2BE2"/>
+    <circle cx="170" cy="210" r="3" fill="#8A2BE2"/>
+    <circle cx="190" cy="190" r="3" fill="#8A2BE2"/>
+    <circle cx="210" cy="210" r="3" fill="#8A2BE2"/>
+  </g>
+
+  <g stroke="#8A2BE2" stroke-width="2" fill="none" stroke-dasharray="5,5">
+    <line x1="700" y1="100" x2="700" y2="200"/>
+    <text x="720" y="150" fill="#8A2BE2" font-family="Arial" font-size="14" font-weight="bold">FUTURE</text>
+    <text x="720" y="170" fill="#8A2BE2" font-family="Arial" font-size="12">REVIVAL</text>
+  </g>
+
+  <path d="M50 350 L90 370 L90 430 L50 450 L10 430 L10 370 Z" fill="#32CD32" stroke="#228B22" stroke-width="3"/>
+  <text x="50" y="415" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold">$</text>
+
+  <g stroke="#FFD700" stroke-width="4" fill="none" filter="url(#glow)">
+    <path d="M650 100 Q670 80 690 100 Q710 120 730 100 Q750 80 770 100 Q750 120 730 100 Q710 80 690 100 Q670 120 650 100"/>
+  </g>
+
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="26" font-weight="bold">Cryonics &amp; Immortality</text>
+  <text x="400" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="26" font-weight="bold">Insurance</text>
+  <text x="400" y="110" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18">Eternal Life Protection</text>
+
+  <rect x="50" y="50" width="110" height="30" rx="15" fill="#4F4F4F" opacity="0.9"/>
+  <text x="105" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">SPECULATIVE</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682B4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stormGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#696969;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+
+  <ellipse cx="100" cy="60" rx="50" ry="25" fill="url(#stormGradient)" opacity="0.8"/>
+  <ellipse cx="140" cy="50" rx="40" ry="20" fill="url(#stormGradient)" opacity="0.7"/>
+  <ellipse cx="180" cy="55" rx="35" ry="18" fill="url(#stormGradient)" opacity="0.6"/>
+
+  <path d="M 120 80 L 110 110 L 120 110 L 105 140" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <path d="M 160 75 L 150 105 L 160 105 L 145 135" stroke="#FFD700" stroke-width="2" fill="none"/>
+
+  <g opacity="0.6">
+    <line x1="90" y1="90" x2="85" y2="120" stroke="#4682B4" stroke-width="2"/>
+    <line x1="110" y1="85" x2="105" y2="115" stroke="#4682B4" stroke-width="2"/>
+    <line x1="130" y1="80" x2="125" y2="110" stroke="#4682B4" stroke-width="2"/>
+    <line x1="150" y1="85" x2="145" y2="115" stroke="#4682B4" stroke-width="2"/>
+    <line x1="170" y1="90" x2="165" y2="120" stroke="#4682B4" stroke-width="2"/>
+  </g>
+
+  <g>
+
+    <rect x="50" y="180" width="60" height="50" fill="#8B4513"/>
+    <polygon points="50,180 80,150 110,180" fill="#DC143C"/>
+    <rect x="60" y="200" width="15" height="30" fill="#654321"/>
+    <rect x="85" y="190" width="12" height="12" fill="#87CEEB"/>
+
+    <rect x="130" y="170" width="70" height="60" fill="#DEB887"/>
+    <polygon points="130,170 165,140 200,170" fill="#A0522D"/>
+    <rect x="145" y="195" width="18" height="35" fill="#8B4513"/>
+    <rect x="175" y="185" width="15" height="15" fill="#87CEEB"/>
+
+    <rect x="220" y="185" width="55" height="45" fill="#F4A460"/>
+    <polygon points="220,185 247.5,155 275,185" fill="#CD853F"/>
+    <rect x="230" y="205" width="12" height="25" fill="#8B4513"/>
+    <rect x="255" y="195" width="10" height="10" fill="#87CEEB"/>
+  </g>
+
+  <ellipse cx="200" cy="250" rx="180" ry="15" fill="#4682B4" opacity="0.7"/>
+  <ellipse cx="200" cy="255" rx="160" ry="10" fill="#4682B4" opacity="0.5"/>
+
+  <rect x="320" y="100" width="12" height="80" fill="#FF6347" rx="6"/>
+  <circle cx="326" cy="185" r="8" fill="#FF6347"/>
+  <rect x="322" y="105" width="8" height="70" fill="#FFFFFF"/>
+  <rect x="322" y="130" width="8" height="45" fill="#FF6347"/>
+
+  <g transform="translate(280, 40)">
+    <rect x="0" y="0" width="80" height="50" fill="#FFFFFF" stroke="#333333" stroke-width="2" rx="5"/>
+    <text x="40" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333333">RISK LEVEL</text>
+    <rect x="10" y="20" width="60" height="8" fill="#FF6347"/>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333333">HIGH</text>
+    <text x="40" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#666666">Climate Change</text>
+  </g>
+
+  <g transform="translate(310, 200)">
+    <path d="M 0 0 L 15 -5 L 30 0 L 30 20 L 15 30 L 0 20 Z" fill="#4169E1" stroke="#191970" stroke-width="2"/>
+    <text x="15" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">$</text>
+    <text x="15" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#FFFFFF">INS</text>
+  </g>
+
+  <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2F4F4F">Climate Risk Assessment</text>
+</svg>

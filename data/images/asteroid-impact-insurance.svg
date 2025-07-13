@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4F4F4F;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="earthGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4169E1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:0.6" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <circle cx="100" cy="80" r="1" fill="#ffffff" filter="url(#glow)"/>
+  <circle cx="200" cy="60" r="1.5" fill="#ffffff" filter="url(#glow)"/>
+  <circle cx="300" cy="90" r="1" fill="#ffffff" filter="url(#glow)"/>
+  <circle cx="700" cy="70" r="1" fill="#ffffff" filter="url(#glow)"/>
+  <circle cx="650" cy="120" r="1.5" fill="#ffffff" filter="url(#glow)"/>
+
+  <circle cx="600" cy="450" r="100" fill="url(#earthGlow)"/>
+
+  <path d="M580 430 Q600 410 620 430 Q640 450 620 470 Q600 490 580 470 Q560 450 580 430" fill="#32CD32"/>
+  <path d="M610 380 Q630 400 650 380" fill="#32CD32"/>
+
+  <circle cx="250" cy="200" r="60" fill="#696969" stroke="#2F4F4F" stroke-width="4"/>
+
+  <circle cx="235" cy="185" r="10" fill="#2F4F4F"/>
+  <circle cx="265" cy="205" r="8" fill="#2F4F4F"/>
+  <circle cx="255" cy="175" r="6" fill="#2F4F4F"/>
+  <circle cx="240" cy="220" r="7" fill="#2F4F4F"/>
+
+  <g stroke="#FF4500" stroke-width="4" fill="none" stroke-dasharray="8,8">
+    <path d="M150 100 Q200 150 250 200 Q400 300 550 400" filter="url(#glow)"/>
+  </g>
+
+  <g fill="#FF4500" opacity="0.8">
+    <circle cx="550" cy="400" r="30" fill="#FF6347"/>
+    <circle cx="540" cy="390" r="20" fill="#FF4500"/>
+    <circle cx="560" cy="410" r="25" fill="#FFA500"/>
+    <circle cx="530" cy="410" r="15" fill="#FFD700"/>
+    <circle cx="570" cy="390" r="18" fill="#FF6347"/>
+  </g>
+
+  <g fill="#8B4513" opacity="0.7">
+    <circle cx="500" cy="350" r="3"/>
+    <circle cx="520" cy="370" r="2"/>
+    <circle cx="580" cy="360" r="4"/>
+    <circle cx="490" cy="380" r="2"/>
+    <circle cx="600" cy="340" r="3"/>
+  </g>
+
+  <g stroke="#32CD32" stroke-width="3" fill="none" stroke-dasharray="5,5" opacity="0.8">
+    <circle cx="600" cy="450" r="130"/>
+    <circle cx="600" cy="450" r="150"/>
+  </g>
+
+  <rect x="400" y="250" width="30" height="15" fill="#4682B4" stroke="#2F4F4F" stroke-width="2"/>
+  <rect x="390" y="258" width="50" height="3" fill="#4682B4"/>
+  <rect x="380" y="262" width="70" height="3" fill="#4682B4"/>
+
+  <g stroke="#00FFFF" stroke-width="3" fill="none">
+    <line x1="415" y1="265" x2="240" y2="190" filter="url(#glow)"/>
+  </g>
+
+  <rect x="50" y="500" width="40" height="60" fill="#2F4F4F"/>
+  <rect x="100" y="480" width="35" height="80" fill="#2F4F4F"/>
+  <rect x="145" y="510" width="30" height="50" fill="#2F4F4F"/>
+
+  <polygon points="150,350 130,390 170,390" fill="#FF4500" stroke="#FF0000" stroke-width="2"/>
+  <text x="150" y="380" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">!</text>
+
+  <path d="M350 500 L390 520 L390 580 L350 600 L310 580 L310 520 Z" fill="#32CD32" stroke="#228B22" stroke-width="3"/>
+  <text x="350" y="565" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold">$</text>
+
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="26" font-weight="bold">Asteroid Impact Insurance</text>
+  <text x="400" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18">Ultimate Catastrophe Protection</text>
+
+  <rect x="50" y="50" width="110" height="30" rx="15" fill="#4F4F4F" opacity="0.9"/>
+  <text x="105" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">SPECULATIVE</text>
+</svg>

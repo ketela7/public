@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#87CEEB;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <rect x="150" y="200" width="150" height="120" fill="#4682B4" stroke="#2F4F4F" stroke-width="3"/>
+  <rect x="170" y="220" width="30" height="30" fill="#87CEEB"/>
+  <rect x="210" y="220" width="30" height="30" fill="#87CEEB"/>
+  <rect x="250" y="220" width="30" height="30" fill="#87CEEB"/>
+  <rect x="170" y="260" width="30" height="30" fill="#87CEEB"/>
+  <rect x="210" y="260" width="30" height="30" fill="#87CEEB"/>
+  <rect x="250" y="260" width="30" height="30" fill="#87CEEB"/>
+
+  <rect x="500" y="200" width="150" height="120" fill="#00FFFF" stroke="#1E90FF" stroke-width="3" opacity="0.8"/>
+  <rect x="520" y="220" width="30" height="30" fill="#87CEEB" opacity="0.8"/>
+  <rect x="560" y="220" width="30" height="30" fill="#87CEEB" opacity="0.8"/>
+  <rect x="600" y="220" width="30" height="30" fill="#87CEEB" opacity="0.8"/>
+  <rect x="520" y="260" width="30" height="30" fill="#87CEEB" opacity="0.8"/>
+  <rect x="560" y="260" width="30" height="30" fill="#87CEEB" opacity="0.8"/>
+  <rect x="600" y="260" width="30" height="30" fill="#87CEEB" opacity="0.8"/>
+
+  <g stroke="#00FFFF" stroke-width="3" fill="none" stroke-dasharray="5,5">
+    <line x1="300" y1="240" x2="500" y2="240"/>
+    <line x1="300" y1="260" x2="500" y2="260"/>
+    <line x1="300" y1="280" x2="500" y2="280"/>
+  </g>
+
+  <g stroke="#32CD32" stroke-width="2" fill="none">
+    <path d="M320 180 Q400 160 480 180" marker-end="url(#arrowhead)"/>
+    <path d="M480 340 Q400 360 320 340" marker-end="url(#arrowhead)"/>
+  </g>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#32CD32"/>
+    </marker>
+  </defs>
+
+  <circle cx="200" cy="400" r="15" fill="#FF6347" stroke="#FF4500" stroke-width="2"/>
+  <circle cx="250" cy="420" r="15" fill="#FF6347" stroke="#FF4500" stroke-width="2"/>
+  <circle cx="300" cy="400" r="15" fill="#FF6347" stroke="#FF4500" stroke-width="2"/>
+
+  <circle cx="550" cy="400" r="15" fill="#00FFFF" stroke="#1E90FF" stroke-width="2" opacity="0.8"/>
+  <circle cx="600" cy="420" r="15" fill="#00FFFF" stroke="#1E90FF" stroke-width="2" opacity="0.8"/>
+  <circle cx="650" cy="400" r="15" fill="#00FFFF" stroke="#1E90FF" stroke-width="2" opacity="0.8"/>
+
+  <path d="M400 450 L430 465 L430 515 L400 530 L370 515 L370 465 Z" fill="#32CD32" stroke="#228B22" stroke-width="3"/>
+  <text x="400" y="500" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18" font-weight="bold">$</text>
+
+  <ellipse cx="400" cy="100" rx="60" ry="30" fill="#F0F8FF" stroke="#87CEEB" stroke-width="2"/>
+  <text x="400" y="110" text-anchor="middle" fill="#4682B4" font-family="Arial" font-size="14" font-weight="bold">CLOUD</text>
+
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="26" font-weight="bold">Digital Twins Insurance</text>
+  <text x="400" y="550" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18">Virtual Replicas Protection</text>
+
+  <rect x="50" y="50" width="130" height="30" rx="15" fill="#4682B4" opacity="0.9"/>
+  <text x="115" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">INDUSTRIAL TECH</text>
+</svg>

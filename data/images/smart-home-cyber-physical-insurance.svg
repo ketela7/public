@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="homeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F9FAFB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E5E7EB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <g id="smart-home" transform="translate(400, 350)">
+
+    <rect x="-120" y="-100" width="240" height="150" fill="url(#homeGradient)" stroke="#D1D5DB" stroke-width="3"/>
+
+    <path d="M -140 -100 L 0 -180 L 140 -100 Z" fill="#6B7280" stroke="#4B5563" stroke-width="2"/>
+
+    <rect x="-15" y="10" width="30" height="40" fill="#8B5CF6" stroke="#7C3AED" stroke-width="2"/>
+    <circle cx="10" cy="30" r="2" fill="#FCD34D"/>
+
+    <rect x="-80" y="-50" width="30" height="25" fill="#93C5FD" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="50" y="-50" width="30" height="25" fill="#93C5FD" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="-80" y="0" width="30" height="25" fill="#93C5FD" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="50" y="0" width="30" height="25" fill="#93C5FD" stroke="#3B82F6" stroke-width="2"/>
+
+    <rect x="60" y="-150" width="20" height="40" fill="#6B7280" stroke="#4B5563" stroke-width="2"/>
+
+    <rect x="-60" y="-140" width="40" height="20" fill="#1F2937" stroke="#111827" stroke-width="2"/>
+    <rect x="-15" y="-140" width="40" height="20" fill="#1F2937" stroke="#111827" stroke-width="2"/>
+    <rect x="30" y="-140" width="40" height="20" fill="#1F2937" stroke="#111827" stroke-width="2"/>
+  </g>
+
+  <g id="smart-devices">
+
+    <g transform="translate(385, 360)">
+      <circle cx="0" cy="0" r="8" fill="#10B981" stroke="#059669" stroke-width="2">
+        <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">🔔</text>
+      <text x="0" y="20" font-family="Arial" font-size="8" fill="#10B981" text-anchor="middle">Doorbell</text>
+    </g>
+
+    <g transform="translate(450, 280)">
+      <circle cx="0" cy="0" r="10" fill="#F59E0B" stroke="#D97706" stroke-width="2">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="4" font-family="Arial" font-size="10" fill="white" text-anchor="middle">🌡️</text>
+      <text x="0" y="25" font-family="Arial" font-size="8" fill="#F59E0B" text-anchor="middle">Thermostat</text>
+    </g>
+
+    <g transform="translate(520, 250)">
+      <rect x="-8" y="-6" width="16" height="12" rx="3" fill="#EF4444" stroke="#DC2626" stroke-width="2">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="3" font-family="Arial" font-size="8" fill="white" text-anchor="middle">📹</text>
+      <text x="0" y="20" font-family="Arial" font-size="8" fill="#EF4444" text-anchor="middle">Camera</text>
+    </g>
+
+    <g transform="translate(350, 300)">
+      <circle cx="0" cy="0" r="8" fill="#FCD34D" stroke="#F59E0B" stroke-width="2">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="4" font-family="Arial" font-size="8" fill="white" text-anchor="middle">💡</text>
+      <text x="0" y="20" font-family="Arial" font-size="8" fill="#F59E0B" text-anchor="middle">Smart Light</text>
+    </g>
+
+    <g transform="translate(370, 350)">
+      <rect x="-6" y="-6" width="12" height="12" rx="2" fill="#8B5CF6" stroke="#7C3AED" stroke-width="2">
+        <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="3" font-family="Arial" font-size="8" fill="white" text-anchor="middle">🔒</text>
+      <text x="0" y="18" font-family="Arial" font-size="8" fill="#8B5CF6" text-anchor="middle">Lock</text>
+    </g>
+
+    <g transform="translate(320, 320)">
+      <rect x="-8" y="-6" width="16" height="12" rx="2" fill="#06B6D4" stroke="#0891B2" stroke-width="2">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="3" font-family="Arial" font-size="8" fill="white" text-anchor="middle">🏠</text>
+      <text x="0" y="20" font-family="Arial" font-size="8" fill="#06B6D4" text-anchor="middle">Appliance</text>
+    </g>
+  </g>
+
+  <g id="network-connections">
+    <line x1="385" y1="360" x2="400" y2="350" stroke="#10B981" stroke-width="2" stroke-dasharray="3,2" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="3,2;6,1;3,2" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="450" y1="280" x2="400" y2="300" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3,2" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="6,1;3,2;6,1" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="520" y1="250" x2="450" y2="280" stroke="#EF4444" stroke-width="2" stroke-dasharray="3,2" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="3,2;6,1;3,2" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="300" x2="385" y2="330" stroke="#FCD34D" stroke-width="2" stroke-dasharray="3,2" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="6,1;3,2;6,1" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="370" y1="350" x2="385" y2="340" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="3,2" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="3,2;6,1;3,2" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="320" y1="320" x2="350" y2="310" stroke="#06B6D4" stroke-width="2" stroke-dasharray="3,2" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="6,1;3,2;6,1" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g id="cyber-threats" transform="translate(100, 200)">
+
+    <circle cx="0" cy="0" r="25" fill="rgba(239,68,68,0.4)" stroke="#EF4444" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="25;30;25" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">💻</text>
+    <text x="0" y="10" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Hacking</text>
+    <text x="0" y="40" font-family="Arial" font-size="10" fill="#EF4444" text-anchor="middle" font-weight="bold">Network Intrusion</text>
+
+    <circle cx="0" cy="100" r="25" fill="rgba(251,146,60,0.4)" stroke="#F59E0B" stroke-width="2">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="25;30;25" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="95" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🦠</text>
+    <text x="0" y="110" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Malware</text>
+    <text x="0" y="140" font-family="Arial" font-size="10" fill="#F59E0B" text-anchor="middle" font-weight="bold">Device Infection</text>
+
+    <circle cx="0" cy="200" r="25" fill="rgba(139,92,246,0.4)" stroke="#8B5CF6" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="25;30;25" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="195" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🕵️</text>
+    <text x="0" y="210" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Data Theft</text>
+    <text x="0" y="240" font-family="Arial" font-size="10" fill="#8B5CF6" text-anchor="middle" font-weight="bold">Privacy Breach</text>
+  </g>
+
+  <g id="physical-threats" transform="translate(650, 200)">
+
+    <circle cx="0" cy="0" r="25" fill="rgba(236,72,153,0.4)" stroke="#EC4899" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="25;30;25" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🔧</text>
+    <text x="0" y="10" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Tampering</text>
+    <text x="0" y="40" font-family="Arial" font-size="10" fill="#EC4899" text-anchor="middle" font-weight="bold">Physical Access</text>
+
+    <circle cx="0" cy="100" r="25" fill="rgba(34,197,94,0.4)" stroke="#22C55E" stroke-width="2">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="25;30;25" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="95" font-family="Arial" font-size="14" fill="white" text-anchor="middle">⚠️</text>
+    <text x="0" y="110" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Failure</text>
+    <text x="0" y="140" font-family="Arial" font-size="10" fill="#22C55E" text-anchor="middle" font-weight="bold">System Malfunction</text>
+
+    <circle cx="0" cy="200" r="25" fill="rgba(59,130,246,0.4)" stroke="#3B82F6" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="25;30;25" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="195" font-family="Arial" font-size="14" fill="white" text-anchor="middle">⚡</text>
+    <text x="0" y="210" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Power Loss</text>
+    <text x="0" y="240" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="middle" font-weight="bold">Grid Failure</text>
+  </g>
+
+  <g id="coverage-areas" transform="translate(50, 480)">
+    <rect x="0" y="0" width="700" height="100" rx="10" fill="rgba(255,255,255,0.1)" stroke="#3B82F6" stroke-width="2"/>
+    <text x="20" y="20" font-family="Arial" font-size="14" fill="white" font-weight="bold">Smart Home Cyber-Physical Insurance Coverage:</text>
+
+    <text x="20" y="40" font-family="Arial" font-size="12" fill="#10B981">• Device Hacking &amp; Intrusion</text>
+    <text x="220" y="40" font-family="Arial" font-size="12" fill="#10B981">• Data Breach &amp; Privacy Loss</text>
+    <text x="420" y="40" font-family="Arial" font-size="12" fill="#10B981">• Physical Device Tampering</text>
+    <text x="620" y="40" font-family="Arial" font-size="12" fill="#10B981">• System Malfunction</text>
+
+    <text x="20" y="55" font-family="Arial" font-size="12" fill="#3B82F6">• Network Security Failures</text>
+    <text x="220" y="55" font-family="Arial" font-size="12" fill="#3B82F6">• Malware &amp; Ransomware</text>
+    <text x="420" y="55" font-family="Arial" font-size="12" fill="#3B82F6">• Power Grid Disruption</text>
+    <text x="620" y="55" font-family="Arial" font-size="12" fill="#3B82F6">• Emergency Response</text>
+
+    <text x="20" y="70" font-family="Arial" font-size="12" fill="#8B5CF6">• Identity Theft Protection</text>
+    <text x="220" y="70" font-family="Arial" font-size="12" fill="#8B5CF6">• Device Replacement</text>
+    <text x="420" y="70" font-family="Arial" font-size="12" fill="#8B5CF6">• System Recovery</text>
+    <text x="620" y="70" font-family="Arial" font-size="12" fill="#8B5CF6">• Legal Assistance</text>
+
+    <text x="20" y="85" font-family="Arial" font-size="12" fill="#EC4899">• Security Monitoring</text>
+    <text x="220" y="85" font-family="Arial" font-size="12" fill="#EC4899">• Cyber Threat Intelligence</text>
+    <text x="420" y="85" font-family="Arial" font-size="12" fill="#EC4899">• Incident Investigation</text>
+    <text x="620" y="85" font-family="Arial" font-size="12" fill="#EC4899">• Business Continuity</text>
+  </g>
+
+  <text x="400" y="60" font-family="Arial" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Smart Home Cyber-Physical Insurance</text>
+  <text x="400" y="90" font-family="Arial" font-size="18" fill="#93C5FD" text-anchor="middle">Protecting Connected Homes from Digital &amp; Physical Threats</text>
+
+  <g id="wifi-signals" transform="translate(400, 150)">
+    <path d="M -30 0 Q 0 -20 30 0" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -20 0 Q 0 -15 20 0" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -10 0 Q 0 -10 10 0" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="0" cy="0" r="3" fill="#3B82F6"/>
+
+    <text x="0" y="25" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="middle" font-weight="bold">Smart Hub</text>
+  </g>
+
+  <g id="security-monitoring" transform="translate(400, 450)">
+    <rect x="-40" y="-15" width="80" height="30" rx="15" fill="rgba(16,185,129,0.3)" stroke="#10B981" stroke-width="2"/>
+    <text x="0" y="-5" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">🛡️ 24/7 Monitoring</text>
+    <text x="0" y="8" font-family="Arial" font-size="10" fill="#10B981" text-anchor="middle">Security Operations Center</text>
+  </g>
+</svg>

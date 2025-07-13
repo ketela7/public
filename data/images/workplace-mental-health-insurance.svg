@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20B2AA;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <rect x="150" y="200" width="200" height="250" fill="#4682B4" stroke="#2F4F4F" stroke-width="3"/>
+
+  <rect x="170" y="220" width="30" height="30" fill="#87CEEB"/>
+  <rect x="210" y="220" width="30" height="30" fill="#87CEEB"/>
+  <rect x="250" y="220" width="30" height="30" fill="#87CEEB"/>
+  <rect x="290" y="220" width="30" height="30" fill="#87CEEB"/>
+
+  <rect x="170" y="270" width="30" height="30" fill="#87CEEB"/>
+  <rect x="210" y="270" width="30" height="30" fill="#87CEEB"/>
+  <rect x="250" y="270" width="30" height="30" fill="#87CEEB"/>
+  <rect x="290" y="270" width="30" height="30" fill="#87CEEB"/>
+
+  <ellipse cx="500" cy="200" rx="60" ry="50" fill="#FF69B4" stroke="#FF1493" stroke-width="3"/>
+  <path d="M460 180 Q480 160 500 180 Q520 160 540 180" stroke="#FF1493" stroke-width="3" fill="none"/>
+  <path d="M460 220 Q480 240 500 220 Q520 240 540 220" stroke="#FF1493" stroke-width="3" fill="none"/>
+
+  <path d="M400 300 C400 285 385 275 375 285 C365 275 350 285 350 300 C350 315 375 340 400 365 C425 340 450 315 450 300 C450 285 435 275 425 285 C415 275 400 285 400 300 Z" fill="#FF6B6B" stroke="#FF0000" stroke-width="2"/>
+
+  <circle cx="600" cy="350" r="30" fill="#FFD700" stroke="#FFA500" stroke-width="3"/>
+  <rect x="580" y="380" width="40" height="60" rx="10" fill="#4169E1"/>
+
+  <circle cx="550" cy="380" r="25" fill="#FFD700" stroke="#FFA500" stroke-width="3"/>
+  <rect x="535" y="405" width="30" height="50" rx="10" fill="#32CD32"/>
+
+  <path d="M200 400 L230 415 L230 465 L200 480 L170 465 L170 415 Z" fill="#32CD32" stroke="#228B22" stroke-width="3"/>
+  <rect x="195" y="435" width="10" height="30" fill="#ffffff"/>
+  <rect x="185" y="445" width="30" height="10" fill="#ffffff"/>
+
+  <circle cx="650" cy="450" r="20" fill="#9370DB" stroke="#8A2BE2" stroke-width="2"/>
+  <text x="650" y="460" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20">☯</text>
+
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="26" font-weight="bold">Workplace Mental Health</text>
+  <text x="400" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="26" font-weight="bold">Insurance</text>
+  <text x="400" y="550" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18">Supporting Employee Well-being</text>
+
+  <rect x="50" y="50" width="100" height="30" rx="15" fill="#4169E1" opacity="0.9"/>
+  <text x="100" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">BUSINESS</text>
+</svg>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="businessBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0F9FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F2FE;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="bondGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:0.1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#businessBg)"/>
+
+  <g transform="translate(50,80)">
+
+    <rect x="0" y="0" width="60" height="80" fill="#475569"/>
+    <rect x="2" y="2" width="56" height="76" fill="#64748B"/>
+
+    <rect x="8" y="10" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="20" y="10" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="32" y="10" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="44" y="10" width="8" height="10" fill="#F1F5F9"/>
+
+    <rect x="8" y="25" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="20" y="25" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="32" y="25" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="44" y="25" width="8" height="10" fill="#F1F5F9"/>
+
+    <rect x="8" y="40" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="20" y="40" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="32" y="40" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="44" y="40" width="8" height="10" fill="#F1F5F9"/>
+
+    <rect x="8" y="55" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="20" y="55" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="32" y="55" width="8" height="10" fill="#F1F5F9"/>
+    <rect x="44" y="55" width="8" height="10" fill="#F1F5F9"/>
+
+    <rect x="26" y="70" width="8" height="10" fill="#1E293B"/>
+    <rect x="27" y="71" width="6" height="8" fill="#334155"/>
+
+    <rect x="15" y="75" width="30" height="5" fill="#3B82F6"/>
+    <text x="30" y="79" font-family="Arial" font-size="6" fill="white" text-anchor="middle">CONTRACTOR</text>
+  </g>
+
+  <g transform="translate(280,100)">
+    <rect x="0" y="0" width="50" height="60" fill="#6B7280"/>
+    <rect x="2" y="2" width="46" height="56" fill="#9CA3AF"/>
+
+    <rect x="8" y="10" width="8" height="8" fill="#F1F5F9"/>
+    <rect x="20" y="10" width="8" height="8" fill="#F1F5F9"/>
+    <rect x="34" y="10" width="8" height="8" fill="#F1F5F9"/>
+
+    <rect x="8" y="25" width="8" height="8" fill="#F1F5F9"/>
+    <rect x="20" y="25" width="8" height="8" fill="#F1F5F9"/>
+    <rect x="34" y="25" width="8" height="8" fill="#F1F5F9"/>
+
+    <rect x="8" y="40" width="8" height="8" fill="#F1F5F9"/>
+    <rect x="20" y="40" width="8" height="8" fill="#F1F5F9"/>
+    <rect x="34" y="40" width="8" height="8" fill="#F1F5F9"/>
+
+    <rect x="21" y="50" width="8" height="10" fill="#1E293B"/>
+    <rect x="22" y="51" width="6" height="8" fill="#334155"/>
+
+    <rect x="12" y="54" width="26" height="4" fill="#059669"/>
+    <text x="25" y="58" font-family="Arial" font-size="5" fill="white" text-anchor="middle">CLIENT</text>
+  </g>
+
+  <g transform="translate(200,150)">
+    <circle cx="0" cy="0" r="40" fill="url(#bondGlow)"/>
+    <circle cx="0" cy="0" r="30" fill="#E0F2FE" stroke="#0369A1" stroke-width="3"/>
+    <circle cx="0" cy="0" r="25" fill="#FFFFFF"/>
+
+    <circle cx="0" cy="0" r="20" fill="#3B82F6"/>
+    <circle cx="0" cy="0" r="15" fill="#60A5FA"/>
+    <text x="0" y="-5" font-family="Arial" font-size="8" fill="white" text-anchor="middle" font-weight="bold">SURETY</text>
+    <text x="0" y="5" font-family="Arial" font-size="8" fill="white" text-anchor="middle" font-weight="bold">BOND</text>
+
+    <circle cx="-25" cy="-25" r="8" fill="#22C55E"/>
+    <text x="-25" y="-21" font-family="Arial" font-size="6" fill="white" text-anchor="middle">P</text>
+    <text x="-25" y="-12" font-family="Arial" font-size="4" fill="#047857" text-anchor="middle">Principal</text>
+
+    <circle cx="25" cy="-25" r="8" fill="#F59E0B"/>
+    <text x="25" y="-21" font-family="Arial" font-size="6" fill="white" text-anchor="middle">O</text>
+    <text x="25" y="-12" font-family="Arial" font-size="4" fill="#D97706" text-anchor="middle">Obligee</text>
+
+    <circle cx="0" cy="35" r="8" fill="#8B5CF6"/>
+    <text x="0" y="39" font-family="Arial" font-size="6" fill="white" text-anchor="middle">S</text>
+    <text x="0" y="48" font-family="Arial" font-size="4" fill="#7C3AED" text-anchor="middle">Surety</text>
+
+    <line x1="-18" y1="-18" x2="-12" y2="-12" stroke="#22C55E" stroke-width="2"/>
+    <line x1="18" y1="-18" x2="12" y2="-12" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="-7" y1="27" x2="-7" y2="15" stroke="#8B5CF6" stroke-width="2"/>
+    <line x1="7" y1="27" x2="7" y2="15" stroke="#8B5CF6" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(120,50)">
+    <rect x="0" y="0" width="25" height="35" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+    <rect x="1" y="1" width="23" height="33" fill="#F9FAFB"/>
+    <rect x="2" y="3" width="21" height="3" fill="#3B82F6"/>
+    <rect x="2" y="8" width="16" height="2" fill="#6B7280"/>
+    <rect x="2" y="12" width="18" height="2" fill="#6B7280"/>
+    <rect x="2" y="16" width="14" height="2" fill="#6B7280"/>
+    <rect x="2" y="20" width="20" height="2" fill="#6B7280"/>
+    <rect x="2" y="24" width="12" height="2" fill="#6B7280"/>
+    <rect x="2" y="28" width="16" height="2" fill="#6B7280"/>
+
+    <line x1="2" y1="32" x2="23" y2="32" stroke="#D1D5DB" stroke-width="1"/>
+    <text x="12.5" y="40" font-family="Arial" font-size="6" fill="#374151" text-anchor="middle">CONTRACT</text>
+  </g>
+
+  <g transform="translate(300,50)">
+    <rect x="0" y="0" width="30" height="20" fill="#FBBF24"/>
+    <rect x="1" y="1" width="28" height="18" fill="#FCD34D"/>
+    <text x="15" y="8" font-family="Arial" font-size="6" fill="#92400E" text-anchor="middle" font-weight="bold">PERFORMANCE</text>
+    <text x="15" y="14" font-family="Arial" font-size="6" fill="#92400E" text-anchor="middle" font-weight="bold">GUARANTEE</text>
+
+    <circle cx="15" cy="25" r="5" fill="#22C55E"/>
+    <path d="M12 25 L14 27 L18 23" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+
+  <g transform="translate(50,200)">
+    <rect x="0" y="0" width="15" height="10" fill="#22C55E"/>
+    <rect x="1" y="1" width="13" height="8" fill="#34D399"/>
+    <text x="7.5" y="7" font-family="Arial" font-size="6" fill="white" text-anchor="middle">$</text>
+
+    <rect x="18" y="0" width="15" height="10" fill="#22C55E"/>
+    <text x="25.5" y="7" font-family="Arial" font-size="6" fill="white" text-anchor="middle">$</text>
+
+    <rect x="36" y="0" width="15" height="10" fill="#22C55E"/>
+    <text x="43.5" y="7" font-family="Arial" font-size="6" fill="white" text-anchor="middle">$</text>
+
+    <text x="25.5" y="18" font-family="Arial" font-size="8" fill="#059669" text-anchor="middle">FINANCIAL BACKING</text>
+  </g>
+
+  <g transform="translate(350,200)">
+    <path d="M0 0 L12 6 L12 24 L0 36 L-12 24 L-12 6 Z" fill="#059669" stroke="#047857" stroke-width="2"/>
+    <path d="M0 4 L8 9 L8 22 L0 30 L-8 22 L-8 9 Z" fill="#34D399"/>
+
+    <ellipse cx="-4" cy="15" rx="3" ry="5" fill="#047857"/>
+    <ellipse cx="4" cy="15" rx="3" ry="5" fill="#047857"/>
+    <rect x="-2" y="13" width="4" height="4" fill="#34D399"/>
+    <text x="0" y="45" font-family="Arial" font-size="8" fill="#047857" text-anchor="middle">TRUST</text>
+  </g>
+
+  <g transform="translate(100,180)">
+
+    <rect x="0" y="0" width="3" height="30" fill="#F59E0B"/>
+    <rect x="-15" y="2" width="30" height="2" fill="#F59E0B"/>
+    <rect x="-12" y="0" width="2" height="6" fill="#F59E0B"/>
+    <rect x="10" y="4" width="2" height="15" fill="#F59E0B"/>
+
+    <rect x="20" y="25" width="8" height="5" fill="#6B7280"/>
+    <rect x="30" y="25" width="8" height="5" fill="#6B7280"/>
+    <rect x="40" y="25" width="8" height="5" fill="#6B7280"/>
+    <text x="34" y="38" font-family="Arial" font-size="6" fill="#374151" text-anchor="middle">MATERIALS</text>
+  </g>
+
+  <g transform="translate(250,200)">
+    <rect x="0" y="0" width="20" height="25" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="1"/>
+    <rect x="1" y="1" width="18" height="23" fill="#F9FAFB"/>
+    <rect x="2" y="3" width="16" height="2" fill="#DC2626"/>
+    <rect x="2" y="7" width="12" height="1" fill="#374151"/>
+    <rect x="2" y="10" width="14" height="1" fill="#374151"/>
+    <rect x="2" y="13" width="10" height="1" fill="#374151"/>
+    <rect x="2" y="16" width="16" height="1" fill="#374151"/>
+    <rect x="2" y="19" width="8" height="1" fill="#374151"/>
+    <rect x="2" y="22" width="12" height="1" fill="#374151"/>
+    <text x="10" y="35" font-family="Arial" font-size="6" fill="#374151" text-anchor="middle">LICENSE</text>
+  </g>
+
+  <text x="200" y="280" font-family="Arial" font-size="16" fill="#1F2937" text-anchor="middle" font-weight="bold">Surety Bonds &amp; Business Trust</text>
+</svg>

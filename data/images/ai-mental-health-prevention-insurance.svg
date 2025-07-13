@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20B2AA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DA70D6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00CED1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#48D1CC;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <g id="brain" transform="translate(400, 250)">
+
+    <path d="M -60 -40 Q -80 -60 -50 -70 Q -20 -80 10 -70 Q 40 -60 60 -40 Q 80 -20 60 0 Q 40 20 20 30 Q 0 40 -20 30 Q -40 20 -60 0 Q -80 -20 -60 -40" 
+          fill="url(#brainGradient)" stroke="#FF69B4" stroke-width="3" filter="url(#glow)"/>
+
+    <line x1="0" y1="-70" x2="0" y2="30" stroke="#DA70D6" stroke-width="2" stroke-dasharray="5,5"/>
+
+    <circle cx="-30" cy="-20" r="4" fill="#FF69B4"/>
+    <circle cx="30" cy="-20" r="4" fill="#FF69B4"/>
+    <circle cx="-20" cy="10" r="4" fill="#DA70D6"/>
+    <circle cx="20" cy="10" r="4" fill="#DA70D6"/>
+    <circle cx="0" cy="-30" r="4" fill="#FF69B4"/>
+
+    <line x1="-30" y1="-20" x2="30" y2="-20" stroke="#FF69B4" stroke-width="2" opacity="0.7"/>
+    <line x1="-20" y1="10" x2="20" y2="10" stroke="#DA70D6" stroke-width="2" opacity="0.7"/>
+    <line x1="0" y1="-30" x2="-30" y2="-20" stroke="#FF69B4" stroke-width="2" opacity="0.7"/>
+    <line x1="0" y1="-30" x2="30" y2="-20" stroke="#FF69B4" stroke-width="2" opacity="0.7"/>
+
+    <circle cx="-40" cy="-30" r="2" fill="#FF69B4">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="-30" r="2" fill="#FF69B4">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="20" r="2" fill="#DA70D6">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g id="ai-system" transform="translate(150, 200)">
+    <rect x="-40" y="-30" width="80" height="60" rx="10" fill="rgba(0,206,209,0.3)" stroke="#00CED1" stroke-width="2"/>
+    <text x="0" y="-10" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">AI Monitor</text>
+    <text x="0" y="8" font-family="Arial" font-size="12" fill="#00CED1" text-anchor="middle">Real-time</text>
+    <text x="0" y="22" font-family="Arial" font-size="12" fill="#00CED1" text-anchor="middle">Analysis</text>
+
+    <rect x="-30" y="40" width="60" height="4" rx="2" fill="#00CED1">
+      <animate attributeName="width" values="20;60;20" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-30" y="48" width="60" height="4" rx="2" fill="#48D1CC">
+      <animate attributeName="width" values="60;20;60" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="-30" y="56" width="60" height="4" rx="2" fill="#20B2AA">
+      <animate attributeName="width" values="40;60;40" dur="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g id="mental-health-indicators" transform="translate(650, 180)">
+
+    <circle cx="0" cy="0" r="25" fill="rgba(255,165,0,0.3)" stroke="#FFA500" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">😰</text>
+    <text x="0" y="40" font-family="Arial" font-size="10" fill="#FFA500" text-anchor="middle">Stress Level</text>
+
+    <circle cx="0" cy="80" r="25" fill="rgba(135,206,235,0.3)" stroke="#87CEEB" stroke-width="2"/>
+    <text x="0" y="85" font-family="Arial" font-size="14" fill="white" text-anchor="middle">😊</text>
+    <text x="0" y="120" font-family="Arial" font-size="10" fill="#87CEEB" text-anchor="middle">Mood</text>
+
+    <circle cx="0" cy="160" r="25" fill="rgba(147,112,219,0.3)" stroke="#9370DB" stroke-width="2"/>
+    <text x="0" y="165" font-family="Arial" font-size="14" fill="white" text-anchor="middle">😴</text>
+    <text x="0" y="200" font-family="Arial" font-size="10" fill="#9370DB" text-anchor="middle">Sleep</text>
+
+    <circle cx="80" cy="40" r="25" fill="rgba(255,99,71,0.3)" stroke="#FF6347" stroke-width="2"/>
+    <text x="80" y="45" font-family="Arial" font-size="14" fill="white" text-anchor="middle">😟</text>
+    <text x="80" y="80" font-family="Arial" font-size="10" fill="#FF6347" text-anchor="middle">Anxiety</text>
+
+    <circle cx="80" cy="120" r="25" fill="rgba(60,179,113,0.3)" stroke="#3CB371" stroke-width="2"/>
+    <text x="80" y="125" font-family="Arial" font-size="14" fill="white" text-anchor="middle">👥</text>
+    <text x="80" y="160" font-family="Arial" font-size="10" fill="#3CB371" text-anchor="middle">Social</text>
+  </g>
+
+  <g id="interventions" transform="translate(100, 400)">
+
+    <rect x="0" y="0" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="#20B2AA" stroke-width="2"/>
+    <text x="40" y="15" font-family="Arial" font-size="12" fill="white" text-anchor="middle">💬</text>
+    <text x="40" y="30" font-family="Arial" font-size="10" fill="#20B2AA" text-anchor="middle">Therapy</text>
+
+    <rect x="100" y="0" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="#20B2AA" stroke-width="2"/>
+    <text x="140" y="15" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🧘</text>
+    <text x="140" y="30" font-family="Arial" font-size="10" fill="#20B2AA" text-anchor="middle">Mindfulness</text>
+
+    <rect x="200" y="0" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="#20B2AA" stroke-width="2"/>
+    <text x="240" y="15" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🏃</text>
+    <text x="240" y="30" font-family="Arial" font-size="10" fill="#20B2AA" text-anchor="middle">Exercise</text>
+
+    <rect x="300" y="0" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="#20B2AA" stroke-width="2"/>
+    <text x="340" y="15" font-family="Arial" font-size="12" fill="white" text-anchor="middle">👥</text>
+    <text x="340" y="30" font-family="Arial" font-size="10" fill="#20B2AA" text-anchor="middle">Support</text>
+
+    <rect x="400" y="0" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="#20B2AA" stroke-width="2"/>
+    <text x="440" y="15" font-family="Arial" font-size="12" fill="white" text-anchor="middle">💊</text>
+    <text x="440" y="30" font-family="Arial" font-size="10" fill="#20B2AA" text-anchor="middle">Medication</text>
+
+    <rect x="500" y="0" width="80" height="40" rx="8" fill="rgba(255,255,255,0.1)" stroke="#20B2AA" stroke-width="2"/>
+    <text x="540" y="15" font-family="Arial" font-size="12" fill="white" text-anchor="middle">📱</text>
+    <text x="540" y="30" font-family="Arial" font-size="10" fill="#20B2AA" text-anchor="middle">Apps</text>
+  </g>
+
+  <g id="coverage-areas" transform="translate(50, 500)">
+    <rect x="0" y="0" width="700" height="80" rx="10" fill="rgba(255,255,255,0.1)" stroke="#20B2AA" stroke-width="2"/>
+    <text x="20" y="20" font-family="Arial" font-size="14" fill="white" font-weight="bold">AI Mental Health Prevention Insurance Coverage:</text>
+
+    <text x="20" y="40" font-family="Arial" font-size="12" fill="#00CED1">• AI Risk Assessment</text>
+    <text x="200" y="40" font-family="Arial" font-size="12" fill="#00CED1">• Early Intervention</text>
+    <text x="380" y="40" font-family="Arial" font-size="12" fill="#00CED1">• Therapy Access</text>
+    <text x="560" y="40" font-family="Arial" font-size="12" fill="#00CED1">• Digital Health Tools</text>
+
+    <text x="20" y="55" font-family="Arial" font-size="12" fill="#48D1CC">• Preventive Counseling</text>
+    <text x="200" y="55" font-family="Arial" font-size="12" fill="#48D1CC">• Medication Management</text>
+    <text x="380" y="55" font-family="Arial" font-size="12" fill="#48D1CC">• Crisis Support</text>
+    <text x="560" y="55" font-family="Arial" font-size="12" fill="#48D1CC">• Wellness Programs</text>
+
+    <text x="20" y="70" font-family="Arial" font-size="12" fill="#20B2AA">• Lifestyle Coaching</text>
+    <text x="200" y="70" font-family="Arial" font-size="12" fill="#20B2AA">• Stress Management</text>
+    <text x="380" y="70" font-family="Arial" font-size="12" fill="#20B2AA">• Sleep Optimization</text>
+    <text x="560" y="70" font-family="Arial" font-size="12" fill="#20B2AA">• Social Support</text>
+  </g>
+
+  <text x="400" y="60" font-family="Arial" font-size="28" fill="white" text-anchor="middle" font-weight="bold">AI Mental Health Prevention Insurance</text>
+  <text x="400" y="90" font-family="Arial" font-size="18" fill="#20B2AA" text-anchor="middle">Proactive Care Through Intelligent Monitoring</text>
+
+  <g id="data-connections">
+    <line x1="190" y1="200" x2="340" y2="230" stroke="#00CED1" stroke-width="2" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dasharray" values="5,5;10,0;5,5" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="190" y1="200" x2="620" y2="220" stroke="#00CED1" stroke-width="2" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dasharray" values="0,5;5,10;0,5" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="320" x2="300" y2="400" stroke="#20B2AA" stroke-width="2" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dasharray" values="5,5;10,0;5,5" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g id="wellness-pulse">
+    <circle cx="120" cy="150" r="3" fill="#00CED1">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="350" r="3" fill="#48D1CC">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="500" r="3" fill="#20B2AA">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

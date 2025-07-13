@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: AdsBot-Google-Mobile-Apps
+Allow: /
+
+Sitemap: /sitemap.xml
+
+Disallow: /admin/
+Disallow: /.well-known/
+Disallow: /sunny
+
+Allow: /ads.txt
+Allow: /app-ads.txt
+
+Crawl-delay: 1

@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "totalPosts": 110,
+  "categories": [
+    {
+      "name": "fintech",
+      "file": "87789ae6f4df901b.json",
+      "count": 3
+    },
+    {
+      "name": "property",
+      "file": "2e9da0f85579475c.json",
+      "count": 5
+    },
+    {
+      "name": "auto",
+      "file": "95f4c8392733656e.json",
+      "count": 1
+    },
+    {
+      "name": "health",
+      "file": "b214e2b03cd61004.json",
+      "count": 13
+    },
+    {
+      "name": "future tech",
+      "file": "645e7c353509aade.json",
+      "count": 13
+    },
+    {
+      "name": "agriculture",
+      "file": "c5bb42be6bcd5e0a.json",
+      "count": 2
+    },
+    {
+      "name": "environmental",
+      "file": "9a0f9fd7ea993bf3.json",
+      "count": 11
+    },
+    {
+      "name": "business",
+      "file": "1f671df603600009.json",
+      "count": 15
+    },
+    {
+      "name": "space",
+      "file": "17b0a4876100b915.json",
+      "count": 8
+    },
+    {
+      "name": "personal finance",
+      "file": "439aa1c7eb8346e5.json",
+      "count": 7
+    },
+    {
+      "name": "insurtech",
+      "file": "3088f3aa5576ca57.json",
+      "count": 3
+    },
+    {
+      "name": "social impact",
+      "file": "b60fc4664ef2afef.json",
+      "count": 4
+    },
+    {
+      "name": "ethics",
+      "file": "99e94d47a82b9748.json",
+      "count": 3
+    },
+    {
+      "name": "retirement",
+      "file": "f7591f6b1db7d70f.json",
+      "count": 3
+    },
+    {
+      "name": "industrial tech",
+      "file": "90cc6f7a6d02e378.json",
+      "count": 3
+    },
+    {
+      "name": "metaverse",
+      "file": "045ce0e9bc1d486e.json",
+      "count": 1
+    },
+    {
+      "name": "automation",
+      "file": "e229df952f6b592e.json",
+      "count": 1
+    },
+    {
+      "name": "speculative",
+      "file": "51879c40633ecd2b.json",
+      "count": 1
+    },
+    {
+      "name": "travel",
+      "file": "9f18cbead3878fa2.json",
+      "count": 2
+    },
+    {
+      "name": "geopolitical risk",
+      "file": "9ff7fdb80840de5e.json",
+      "count": 1
+    },
+    {
+      "name": "specialty",
+      "file": "d985efa960ae6981.json",
+      "count": 4
+    },
+    {
+      "name": "automotive",
+      "file": "eb6130bef9956746.json",
+      "count": 1
+    },
+    {
+      "name": "innovation",
+      "file": "992ec5ce88205293.json",
+      "count": 1
+    },
+    {
+      "name": "commercial",
+      "file": "e3df7d4ae117c930.json",
+      "count": 2
+    },
+    {
+      "name": "pet",
+      "file": "9ca0f01cf809edb0.json",
+      "count": 1
+    },
+    {
+      "name": "life",
+      "file": "d1a5bb710a179ed5.json",
+      "count": 1
+    }
+  ]
+}
