@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="platformGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#44A08D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="workerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD93D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8A95;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <g id="gig-worker" transform="translate(400, 300)">
+
+    <circle cx="0" cy="-30" r="20" fill="url(#workerGradient)" stroke="#FFD93D" stroke-width="2" filter="url(#glow)"/>
+    <rect x="-12" y="-10" width="24" height="30" rx="12" fill="url(#workerGradient)" stroke="#FFD93D" stroke-width="2"/>
+    <rect x="-25" y="-5" width="15" height="6" rx="3" fill="url(#workerGradient)"/>
+    <rect x="10" y="-5" width="15" height="6" rx="3" fill="url(#workerGradient)"/>
+    <rect x="-8" y="20" width="6" height="20" rx="3" fill="url(#workerGradient)"/>
+    <rect x="2" y="20" width="6" height="20" rx="3" fill="url(#workerGradient)"/>
+
+    <circle cx="-6" cy="-35" r="2" fill="white"/>
+    <circle cx="6" cy="-35" r="2" fill="white"/>
+    <path d="M -5 -25 Q 0 -22 5 -25" stroke="white" stroke-width="2" fill="none"/>
+
+    <text x="0" y="70" font-family="Arial" font-size="12" fill="#FFD93D" text-anchor="middle" font-weight="bold">Multi-Platform Worker</text>
+  </g>
+
+  <g id="platforms">
+
+    <g transform="translate(200, 150)">
+      <rect x="-40" y="-25" width="80" height="50" rx="10" fill="rgba(76,175,80,0.3)" stroke="#4CAF50" stroke-width="2"/>
+      <text x="0" y="-5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🚗</text>
+      <text x="0" y="10" font-family="Arial" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="bold">Ride Sharing</text>
+      <text x="0" y="35" font-family="Arial" font-size="8" fill="#4CAF50" text-anchor="middle">Uber • Lyft</text>
+    </g>
+
+    <g transform="translate(600, 150)">
+      <rect x="-40" y="-25" width="80" height="50" rx="10" fill="rgba(255,152,0,0.3)" stroke="#FF9800" stroke-width="2"/>
+      <text x="0" y="-5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🍕</text>
+      <text x="0" y="10" font-family="Arial" font-size="10" fill="#FF9800" text-anchor="middle" font-weight="bold">Food Delivery</text>
+      <text x="0" y="35" font-family="Arial" font-size="8" fill="#FF9800" text-anchor="middle">DoorDash • UberEats</text>
+    </g>
+
+    <g transform="translate(150, 450)">
+      <rect x="-40" y="-25" width="80" height="50" rx="10" fill="rgba(156,39,176,0.3)" stroke="#9C27B0" stroke-width="2"/>
+      <text x="0" y="-5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">💻</text>
+      <text x="0" y="10" font-family="Arial" font-size="10" fill="#9C27B0" text-anchor="middle" font-weight="bold">Freelance</text>
+      <text x="0" y="35" font-family="Arial" font-size="8" fill="#9C27B0" text-anchor="middle">Upwork • Fiverr</text>
+    </g>
+
+    <g transform="translate(650, 450)">
+      <rect x="-40" y="-25" width="80" height="50" rx="10" fill="rgba(33,150,243,0.3)" stroke="#2196F3" stroke-width="2"/>
+      <text x="0" y="-5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🔧</text>
+      <text x="0" y="10" font-family="Arial" font-size="10" fill="#2196F3" text-anchor="middle" font-weight="bold">Task Services</text>
+      <text x="0" y="35" font-family="Arial" font-size="8" fill="#2196F3" text-anchor="middle">TaskRabbit • Handy</text>
+    </g>
+
+    <g transform="translate(400, 100)">
+      <rect x="-40" y="-25" width="80" height="50" rx="10" fill="rgba(244,67,54,0.3)" stroke="#F44336" stroke-width="2"/>
+      <text x="0" y="-5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">📱</text>
+      <text x="0" y="10" font-family="Arial" font-size="10" fill="#F44336" text-anchor="middle" font-weight="bold">Content</text>
+      <text x="0" y="35" font-family="Arial" font-size="8" fill="#F44336" text-anchor="middle">YouTube • TikTok</text>
+    </g>
+
+    <g transform="translate(400, 500)">
+      <rect x="-40" y="-25" width="80" height="50" rx="10" fill="rgba(103,58,183,0.3)" stroke="#673AB7" stroke-width="2"/>
+      <text x="0" y="-5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">📦</text>
+      <text x="0" y="10" font-family="Arial" font-size="10" fill="#673AB7" text-anchor="middle" font-weight="bold">E-commerce</text>
+      <text x="0" y="35" font-family="Arial" font-size="8" fill="#673AB7" text-anchor="middle">Amazon • Etsy</text>
+    </g>
+  </g>
+
+  <g id="connections">
+    <line x1="360" y1="270" x2="240" y2="180" stroke="#4CAF50" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="8,4;12,0;8,4" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="440" y1="270" x2="560" y2="180" stroke="#FF9800" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="0,8;8,12;0,8" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="360" y1="330" x2="190" y2="420" stroke="#9C27B0" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="8,4;12,0;8,4" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="440" y1="330" x2="610" y2="420" stroke="#2196F3" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="0,8;8,12;0,8" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="270" x2="400" y2="140" stroke="#F44336" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="8,4;12,0;8,4" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="330" x2="400" y2="460" stroke="#673AB7" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="0,8;8,12;0,8" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g id="risks" transform="translate(100, 200)">
+
+    <circle cx="0" cy="0" r="20" fill="rgba(255,193,7,0.4)" stroke="#FFC107" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">📊</text>
+    <text x="0" y="35" font-family="Arial" font-size="10" fill="#FFC107" text-anchor="middle">Income Volatility</text>
+
+    <circle cx="0" cy="80" r="20" fill="rgba(244,67,54,0.4)" stroke="#F44336" stroke-width="2">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="85" font-family="Arial" font-size="14" fill="white" text-anchor="middle">❌</text>
+    <text x="0" y="115" font-family="Arial" font-size="10" fill="#F44336" text-anchor="middle">No Benefits</text>
+
+    <circle cx="0" cy="160" r="20" fill="rgba(255,152,0,0.4)" stroke="#FF9800" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="165" font-family="Arial" font-size="14" fill="white" text-anchor="middle">⚠️</text>
+    <text x="0" y="195" font-family="Arial" font-size="10" fill="#FF9800" text-anchor="middle">Platform Risk</text>
+  </g>
+
+  <g id="coverage-areas" transform="translate(50, 50)">
+    <rect x="0" y="0" width="300" height="120" rx="10" fill="rgba(255,255,255,0.1)" stroke="#FF6B35" stroke-width="2"/>
+    <text x="20" y="20" font-family="Arial" font-size="14" fill="white" font-weight="bold">Multi-Platform Coverage:</text>
+
+    <text x="20" y="40" font-family="Arial" font-size="12" fill="#4ECDC4">• Cross-Platform Income Protection</text>
+    <text x="20" y="55" font-family="Arial" font-size="12" fill="#4ECDC4">• Unified Health &amp; Benefits</text>
+    <text x="20" y="70" font-family="Arial" font-size="12" fill="#4ECDC4">• Platform Deactivation Coverage</text>
+    <text x="20" y="85" font-family="Arial" font-size="12" fill="#4ECDC4">• Equipment Protection</text>
+    <text x="20" y="100" font-family="Arial" font-size="12" fill="#4ECDC4">• Legal Support &amp; Liability</text>
+  </g>
+
+  <g id="dashboard" transform="translate(550, 250)">
+    <rect x="0" y="0" width="120" height="80" rx="8" fill="rgba(255,255,255,0.1)" stroke="#4ECDC4" stroke-width="2"/>
+    <text x="60" y="15" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Earnings Tracker</text>
+
+    <rect x="10" y="25" width="15" height="20" fill="#4CAF50"/>
+    <rect x="30" y="30" width="15" height="15" fill="#FF9800"/>
+    <rect x="50" y="28" width="15" height="17" fill="#9C27B0"/>
+    <rect x="70" y="32" width="15" height="13" fill="#2196F3"/>
+    <rect x="90" y="26" width="15" height="19" fill="#F44336"/>
+
+    <text x="60" y="60" font-family="Arial" font-size="10" fill="#4ECDC4" text-anchor="middle">Multi-Platform Analytics</text>
+    <text x="60" y="72" font-family="Arial" font-size="10" fill="#4ECDC4" text-anchor="middle">Real-time Tracking</text>
+  </g>
+
+  <g id="coverage-details" transform="translate(50, 520)">
+    <rect x="0" y="0" width="700" height="60" rx="10" fill="rgba(255,255,255,0.1)" stroke="#FF6B35" stroke-width="2"/>
+    <text x="20" y="18" font-family="Arial" font-size="12" fill="#FFD93D">• Income Smoothing During Platform Changes</text>
+    <text x="300" y="18" font-family="Arial" font-size="12" fill="#FFD93D">• Emergency Fund Access</text>
+    <text x="550" y="18" font-family="Arial" font-size="12" fill="#FFD93D">• Tax Preparation Support</text>
+
+    <text x="20" y="33" font-family="Arial" font-size="12" fill="#FF8A95">• Disability Coverage Across Platforms</text>
+    <text x="300" y="33" font-family="Arial" font-size="12" fill="#FF8A95">• Professional Development</text>
+    <text x="550" y="33" font-family="Arial" font-size="12" fill="#FF8A95">• Market Transition Support</text>
+
+    <text x="20" y="48" font-family="Arial" font-size="12" fill="#4ECDC4">• Retirement Planning Tools</text>
+    <text x="300" y="48" font-family="Arial" font-size="12" fill="#4ECDC4">• Healthcare Marketplace Access</text>
+    <text x="550" y="48" font-family="Arial" font-size="12" fill="#4ECDC4">• Workers' Rights Advocacy</text>
+  </g>
+
+  <text x="400" y="40" font-family="Arial" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Gig Economy Multi-Platform Insurance</text>
+
+  <g id="activity-indicators">
+    <circle cx="150" cy="350" r="3" fill="#FFD93D">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="250" r="3" fill="#FF8A95">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="450" r="3" fill="#4ECDC4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

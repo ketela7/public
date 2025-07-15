@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D3748;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E2E8F0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CBD5E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+
+  <g transform="translate(150,120)">
+    <rect x="0" y="0" width="100" height="120" fill="url(#buildingGradient)"/>
+    <rect x="0" y="120" width="100" height="20" fill="#1A202C"/>
+
+    <rect x="10" y="15" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="30" y="15" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="50" y="15" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="70" y="15" width="12" height="15" fill="#F7FAFC"/>
+
+    <rect x="10" y="40" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="30" y="40" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="50" y="40" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="70" y="40" width="12" height="15" fill="#F7FAFC"/>
+
+    <rect x="10" y="65" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="30" y="65" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="50" y="65" width="12" height="15" fill="#F7FAFC"/>
+    <rect x="70" y="65" width="12" height="15" fill="#F7FAFC"/>
+
+    <rect x="42" y="90" width="16" height="30" fill="#2D3748"/>
+    <rect x="44" y="92" width="12" height="26" fill="#4A5568"/>
+    <circle cx="54" cy="105" r="1" fill="#F7FAFC"/>
+
+    <rect x="15" y="95" width="25" height="8" fill="#3182CE"/>
+    <text x="27.5" y="101" font-family="Arial" font-size="6" fill="white" text-anchor="middle">OFFICE</text>
+  </g>
+
+  <circle cx="80" cy="40" r="25" fill="#718096"/>
+  <circle cx="100" cy="35" r="30" fill="#4A5568"/>
+  <circle cx="120" cy="40" r="20" fill="#718096"/>
+
+  <circle cx="280" cy="50" r="20" fill="#718096"/>
+  <circle cx="300" cy="45" r="25" fill="#4A5568"/>
+  <circle cx="320" cy="50" r="18" fill="#718096"/>
+
+  <g opacity="0.6">
+    <line x1="70" y1="70" x2="65" y2="85" stroke="#4A5568" stroke-width="2"/>
+    <line x1="80" y1="75" x2="75" y2="90" stroke="#4A5568" stroke-width="2"/>
+    <line x1="90" y1="70" x2="85" y2="85" stroke="#4A5568" stroke-width="2"/>
+    <line x1="100" y1="72" x2="95" y2="87" stroke="#4A5568" stroke-width="2"/>
+    <line x1="110" y1="75" x2="105" y2="90" stroke="#4A5568" stroke-width="2"/>
+    <line x1="120" y1="70" x2="115" y2="85" stroke="#4A5568" stroke-width="2"/>
+    <line x1="130" y1="72" x2="125" y2="87" stroke="#4A5568" stroke-width="2"/>
+
+    <line x1="270" y1="80" x2="265" y2="95" stroke="#4A5568" stroke-width="2"/>
+    <line x1="280" y1="75" x2="275" y2="90" stroke="#4A5568" stroke-width="2"/>
+    <line x1="290" y1="78" x2="285" y2="93" stroke="#4A5568" stroke-width="2"/>
+    <line x1="300" y1="80" x2="295" y2="95" stroke="#4A5568" stroke-width="2"/>
+    <line x1="310" y1="75" x2="305" y2="90" stroke="#4A5568" stroke-width="2"/>
+    <line x1="320" y1="78" x2="315" y2="93" stroke="#4A5568" stroke-width="2"/>
+    <line x1="330" y1="80" x2="325" y2="95" stroke="#4A5568" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(70,180)">
+    <path d="M0 0 L15 8 L15 30 L0 45 L-15 30 L-15 8 Z" fill="#48BB78" stroke="#2F855A" stroke-width="2"/>
+    <path d="M0 5 L10 12 L10 28 L0 38 L-10 28 L-10 12 Z" fill="#68D391"/>
+    <text x="0" y="25" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">$</text>
+  </g>
+
+  <g transform="translate(330,180)">
+    <rect x="0" y="0" width="40" height="25" rx="3" fill="#E53E3E"/>
+    <rect x="2" y="2" width="36" height="21" rx="2" fill="#FC8181"/>
+    <text x="20" y="16" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">CLOSED</text>
+  </g>
+
+  <g transform="translate(50,220)">
+    <rect x="0" y="0" width="60" height="40" fill="#F7FAFC" stroke="#CBD5E0" stroke-width="1"/>
+    <text x="30" y="52" font-family="Arial" font-size="8" fill="#4A5568" text-anchor="middle">Revenue</text>
+
+    <rect x="5" y="30" width="8" height="8" fill="#48BB78"/>
+    <rect x="16" y="28" width="8" height="10" fill="#48BB78"/>
+    <rect x="27" y="25" width="8" height="13" fill="#48BB78"/>
+    <rect x="38" y="35" width="8" height="3" fill="#E53E3E"/>
+    <rect x="49" y="37" width="8" height="1" fill="#E53E3E"/>
+
+    <path d="M40 15 L45 20 L35 20 Z" fill="#E53E3E"/>
+    <line x1="40" y1="5" x2="40" y2="15" stroke="#E53E3E" stroke-width="2"/>
+  </g>
+
+  <text x="200" y="280" font-family="Arial" font-size="16" fill="#2D3748" text-anchor="middle" font-weight="bold">Business Interruption Coverage</text>
+</svg>

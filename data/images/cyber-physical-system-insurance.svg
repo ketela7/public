@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000080;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <rect x="150" y="200" width="150" height="120" fill="#4682B4" stroke="#2F4F4F" stroke-width="3"/>
+  <text x="225" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">PHYSICAL</text>
+
+  <circle cx="180" cy="240" r="15" fill="#FF6347"/>
+  <circle cx="220" cy="240" r="15" fill="#32CD32"/>
+  <circle cx="260" cy="240" r="15" fill="#FFD700"/>
+  <rect x="170" y="280" width="80" height="20" fill="#87CEEB"/>
+
+  <rect x="500" y="200" width="150" height="120" fill="#00FFFF" stroke="#1E90FF" stroke-width="3" opacity="0.8"/>
+  <text x="575" y="170" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">CYBER</text>
+
+  <rect x="520" y="220" width="30" height="20" fill="#0000FF" opacity="0.8"/>
+  <rect x="560" y="220" width="30" height="20" fill="#0000FF" opacity="0.8"/>
+  <rect x="600" y="220" width="30" height="20" fill="#0000FF" opacity="0.8"/>
+  <rect x="520" y="260" width="110" height="30" fill="#4169E1" opacity="0.8"/>
+  <text x="575" y="280" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">CONTROL</text>
+
+  <rect x="350" y="240" width="100" height="20" fill="#9370DB" stroke="#8A2BE2" stroke-width="2"/>
+  <text x="400" y="255" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">BRIDGE</text>
+
+  <g stroke="#00FFFF" stroke-width="3" fill="none">
+    <path d="M300 250 Q400 220 500 250" marker-end="url(#arrowhead)"/>
+    <path d="M500 250 Q400 280 300 250" marker-end="url(#arrowhead2)"/>
+  </g>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00FFFF"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00FFFF"/>
+    </marker>
+  </defs>
+
+  <circle cx="100" cy="350" r="12" fill="#FF6347" stroke="#FF4500" stroke-width="2"/>
+  <circle cx="150" cy="380" r="12" fill="#FF6347" stroke="#FF4500" stroke-width="2"/>
+  <circle cx="200" cy="360" r="12" fill="#FF6347" stroke="#FF4500" stroke-width="2"/>
+  <text x="150" y="420" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">IoT SENSORS</text>
+
+  <g stroke="#32CD32" stroke-width="2" fill="none">
+    <circle cx="600" cy="400" r="15" fill="#1a1a2e"/>
+    <circle cx="650" cy="420" r="15" fill="#1a1a2e"/>
+    <circle cx="700" cy="380" r="15" fill="#1a1a2e"/>
+    <line x1="600" y1="400" x2="650" y2="420"/>
+    <line x1="650" y1="420" x2="700" y2="380"/>
+    <line x1="700" y1="380" x2="600" y2="400"/>
+  </g>
+  <text x="650" y="460" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="12">NETWORK</text>
+
+  <polygon points="400,400 380,440 420,440" fill="#FF4500" stroke="#FF0000" stroke-width="2"/>
+  <text x="400" y="430" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">⚠</text>
+
+  <path d="M350 500 L390 520 L390 580 L350 600 L310 580 L310 520 Z" fill="#32CD32" stroke="#228B22" stroke-width="3"/>
+  <text x="350" y="565" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="20" font-weight="bold">$</text>
+
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold">Cyber-Physical System</text>
+  <text x="400" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold">Insurance</text>
+  <text x="400" y="110" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18">Digital &amp; Physical Bridge</text>
+
+  <rect x="50" y="50" width="130" height="30" rx="15" fill="#4682B4" opacity="0.9"/>
+  <text x="115" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">INDUSTRIAL TECH</text>
+</svg>

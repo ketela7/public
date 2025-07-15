@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C2D12;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B91C1C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dnaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="medicalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <g id="dna-helix" transform="translate(400, 300)">
+
+    <g id="helix-structure">
+
+      <path d="M -50 -150 Q -30 -100 -50 -50 Q -70 0 -50 50 Q -30 100 -50 150"
+            stroke="url(#dnaGradient)" stroke-width="6" fill="none" filter="url(#glow)">
+        <animate attributeName="d"
+                 values="M -50 -150 Q -30 -100 -50 -50 Q -70 0 -50 50 Q -30 100 -50 150;
+                         M -50 -150 Q -70 -100 -50 -50 Q -30 0 -50 50 Q -70 100 -50 150;
+                         M -50 -150 Q -30 -100 -50 -50 Q -70 0 -50 50 Q -30 100 -50 150"
+                 dur="4s" repeatCount="indefinite"/>
+      </path>
+
+      <path d="M 50 -150 Q 30 -100 50 -50 Q 70 0 50 50 Q 30 100 50 150"
+            stroke="url(#dnaGradient)" stroke-width="6" fill="none" filter="url(#glow)">
+        <animate attributeName="d"
+                 values="M 50 -150 Q 30 -100 50 -50 Q 70 0 50 50 Q 30 100 50 150;
+                         M 50 -150 Q 70 -100 50 -50 Q 30 0 50 50 Q 70 100 50 150;
+                         M 50 -150 Q 30 -100 50 -50 Q 70 0 50 50 Q 30 100 50 150"
+                 dur="4s" repeatCount="indefinite"/>
+      </path>
+
+      <g id="base-pairs">
+        <line x1="-45" y1="-120" x2="45" y2="-120" stroke="#F59E0B" stroke-width="3">
+          <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+        </line>
+        <line x1="-35" y1="-80" x2="35" y2="-80" stroke="#EF4444" stroke-width="3">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+        </line>
+        <line x1="-55" y1="-40" x2="55" y2="-40" stroke="#8B5CF6" stroke-width="3">
+          <animate attributeName="opacity" values="1;0.5;1" dur="1.8s" repeatCount="indefinite"/>
+        </line>
+        <line x1="-45" y1="0" x2="45" y2="0" stroke="#10B981" stroke-width="3">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+        </line>
+        <line x1="-35" y1="40" x2="35" y2="40" stroke="#F59E0B" stroke-width="3">
+          <animate attributeName="opacity" values="1;0.5;1" dur="2.8s" repeatCount="indefinite"/>
+        </line>
+        <line x1="-55" y1="80" x2="55" y2="80" stroke="#EF4444" stroke-width="3">
+          <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite"/>
+        </line>
+        <line x1="-45" y1="120" x2="45" y2="120" stroke="#8B5CF6" stroke-width="3">
+          <animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+        </line>
+      </g>
+    </g>
+
+    <text x="0" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Genetic Profile</text>
+    <text x="0" y="195" font-family="Arial" font-size="12" fill="#3B82F6" text-anchor="middle">DNA Analysis</text>
+  </g>
+
+  <g id="testing-equipment" transform="translate(150, 200)">
+
+    <rect x="0" y="0" width="100" height="80" rx="8" fill="url(#medicalGradient)" stroke="#10B981" stroke-width="3" filter="url(#glow)"/>
+    <rect x="10" y="10" width="80" height="20" rx="5" fill="rgba(255,255,255,0.2)"/>
+    <rect x="10" y="40" width="35" height="30" rx="3" fill="rgba(255,255,255,0.3)"/>
+    <rect x="55" y="40" width="35" height="30" rx="3" fill="rgba(255,255,255,0.3)"/>
+
+    <text x="50" y="95" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">🧬</text>
+    <text x="50" y="110" font-family="Arial" font-size="10" fill="#10B981" text-anchor="middle" font-weight="bold">Genome Sequencer</text>
+  </g>
+
+  <g id="personalized-medicine" transform="translate(650, 200)">
+
+    <rect x="0" y="0" width="60" height="80" rx="8" fill="rgba(59,130,246,0.8)" stroke="#3B82F6" stroke-width="3"/>
+    <rect x="20" y="-10" width="20" height="15" rx="3" fill="#1D4ED8"/>
+
+    <circle cx="20" cy="30" r="6" fill="rgba(255,255,255,0.8)">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="40" r="6" fill="rgba(255,255,255,0.8)">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="30" cy="60" r="6" fill="rgba(255,255,255,0.8)">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="30" y="100" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="middle" font-weight="bold">Personalized</text>
+    <text x="30" y="115" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="middle" font-weight="bold">Medication</text>
+  </g>
+
+  <g id="health-monitoring" transform="translate(100, 400)">
+
+    <rect x="0" y="0" width="120" height="60" rx="30" fill="rgba(168,85,247,0.8)" stroke="#A855F7" stroke-width="3"/>
+    <circle cx="30" cy="30" r="15" fill="rgba(255,255,255,0.3)">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="35" font-family="Arial" font-size="12" fill="white" text-anchor="middle">❤️</text>
+
+    <rect x="70" y="15" width="40" height="30" rx="5" fill="rgba(255,255,255,0.2)"/>
+    <text x="90" y="25" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Health</text>
+    <text x="90" y="35" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Data</text>
+    <text x="90" y="42" font-family="Arial" font-size="8" fill="white" text-anchor="middle">🧬</text>
+
+    <text x="60" y="80" font-family="Arial" font-size="10" fill="#A855F7" text-anchor="middle" font-weight="bold">Continuous Monitoring</text>
+  </g>
+
+  <g id="risk-assessment" transform="translate(600, 400)">
+
+    <rect x="0" y="0" width="100" height="70" rx="8" fill="rgba(251,146,60,0.8)" stroke="#F59E0B" stroke-width="3"/>
+
+    <circle cx="25" cy="25" r="8" fill="rgba(34,197,94,0.6)">
+      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="25" y="29" font-family="Arial" font-size="6" fill="white" text-anchor="middle">Low</text>
+
+    <circle cx="50" cy="25" r="8" fill="rgba(251,146,60,0.6)">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="29" font-family="Arial" font-size="6" fill="white" text-anchor="middle">Med</text>
+
+    <circle cx="75" cy="25" r="8" fill="rgba(239,68,68,0.6)">
+      <animate attributeName="opacity" values="1;0.6;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="75" y="29" font-family="Arial" font-size="6" fill="white" text-anchor="middle">High</text>
+
+    <text x="50" y="50" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Risk Profile</text>
+    <text x="50" y="90" font-family="Arial" font-size="10" fill="#F59E0B" text-anchor="middle" font-weight="bold">Genetic Risk Assessment</text>
+  </g>
+
+  <g id="wellness-programs" transform="translate(350, 450)">
+
+    <circle cx="-50" cy="0" r="20" fill="rgba(34,197,94,0.4)" stroke="#22C55E" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="-50" y="-5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🥗</text>
+    <text x="-50" y="8" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Nutrition</text>
+    <text x="-50" y="30" font-family="Arial" font-size="8" fill="#22C55E" text-anchor="middle">Personalized Diet</text>
+
+    <circle cx="0" cy="0" r="20" fill="rgba(59,130,246,0.4)" stroke="#3B82F6" stroke-width="2">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🏃</text>
+    <text x="0" y="8" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Exercise</text>
+    <text x="0" y="30" font-family="Arial" font-size="8" fill="#3B82F6" text-anchor="middle">Genetic Training</text>
+
+    <circle cx="50" cy="0" r="20" fill="rgba(168,85,247,0.4)" stroke="#A855F7" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="50" y="-5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">💊</text>
+    <text x="50" y="8" font-family="Arial" font-size="10" fill="white" text-anchor="middle" font-weight="bold">Supplements</text>
+    <text x="50" y="30" font-family="Arial" font-size="8" fill="#A855F7" text-anchor="middle">Targeted Nutrients</text>
+  </g>
+
+  <g id="coverage-areas" transform="translate(50, 520)">
+    <rect x="0" y="0" width="700" height="70" rx="10" fill="rgba(255,255,255,0.1)" stroke="#DC2626" stroke-width="2"/>
+    <text x="20" y="20" font-family="Arial" font-size="14" fill="white" font-weight="bold">Genetic Wellness Program Insurance Coverage:</text>
+
+    <text x="20" y="35" font-family="Arial" font-size="12" fill="#3B82F6">• Genetic Testing</text>
+    <text x="170" y="35" font-family="Arial" font-size="12" fill="#3B82F6">• Personalized Medicine</text>
+    <text x="340" y="35" font-family="Arial" font-size="12" fill="#3B82F6">• Preventive Care</text>
+    <text x="490" y="35" font-family="Arial" font-size="12" fill="#3B82F6">• Wellness Coaching</text>
+
+    <text x="20" y="50" font-family="Arial" font-size="12" fill="#10B981">• Nutritional Analysis</text>
+    <text x="170" y="50" font-family="Arial" font-size="12" fill="#10B981">• Exercise Programs</text>
+    <text x="340" y="50" font-family="Arial" font-size="12" fill="#10B981">• Supplement Plans</text>
+    <text x="490" y="50" font-family="Arial" font-size="12" fill="#10B981">• Health Monitoring</text>
+
+    <text x="20" y="65" font-family="Arial" font-size="12" fill="#A855F7">• Risk Assessment</text>
+    <text x="170" y="65" font-family="Arial" font-size="12" fill="#A855F7">• Family Planning</text>
+    <text x="340" y="65" font-family="Arial" font-size="12" fill="#A855F7">• Privacy Protection</text>
+    <text x="490" y="65" font-family="Arial" font-size="12" fill="#A855F7">• Counseling Services</text>
+  </g>
+
+  <text x="400" y="60" font-family="Arial" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Genetic Wellness Program Insurance</text>
+  <text x="400" y="90" font-family="Arial" font-size="18" fill="#3B82F6" text-anchor="middle">Personalized Health Based on Your DNA</text>
+
+  <g id="data-connections">
+    <line x1="200" y1="240" x2="350" y2="280" stroke="#10B981" stroke-width="2" stroke-dasharray="5,3" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="5,3;10,1;5,3" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="450" y1="280" x2="650" y2="240" stroke="#3B82F6" stroke-width="2" stroke-dasharray="5,3" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="10,1;5,3;10,1" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="320" x2="200" y2="400" stroke="#A855F7" stroke-width="2" stroke-dasharray="5,3" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="5,3;10,1;5,3" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="450" y1="320" x2="600" y2="400" stroke="#F59E0B" stroke-width="2" stroke-dasharray="5,3" opacity="0.7">
+      <animate attributeName="stroke-dasharray" values="10,1;5,3;10,1" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g id="privacy-shield" transform="translate(400, 150)">
+    <path d="M 0 -20 L 15 -10 L 15 10 L 0 20 L -15 10 L -15 -10 Z"
+          fill="rgba(239,68,68,0.3)" stroke="#EF4444" stroke-width="2"/>
+    <text x="0" y="-5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🛡️</text>
+    <text x="0" y="8" font-family="Arial" font-size="8" fill="white" text-anchor="middle" font-weight="bold">Privacy</text>
+    <text x="0" y="40" font-family="Arial" font-size="10" fill="#EF4444" text-anchor="middle" font-weight="bold">Data Protection</text>
+  </g>
+</svg>

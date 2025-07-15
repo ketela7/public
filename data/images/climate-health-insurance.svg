@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D47A1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1976D2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF7043;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="healthGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="climateGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC107;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <g id="climate-impacts" transform="translate(150, 200)">
+
+    <circle cx="0" cy="0" r="30" fill="rgba(255,87,34,0.4)" stroke="#FF5722" stroke-width="3">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="8" font-family="Arial" font-size="20" fill="white" text-anchor="middle">🌡️</text>
+    <text x="0" y="50" font-family="Arial" font-size="12" fill="#FF5722" text-anchor="middle" font-weight="bold">Heat Waves</text>
+    <text x="0" y="65" font-family="Arial" font-size="10" fill="#FF5722" text-anchor="middle">Heat Stress • Dehydration</text>
+
+    <circle cx="150" cy="-50" r="30" fill="rgba(158,158,158,0.4)" stroke="#9E9E9E" stroke-width="3">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="150" y="-42" font-family="Arial" font-size="20" fill="white" text-anchor="middle">🏭</text>
+    <text x="150" y="0" font-family="Arial" font-size="12" fill="#9E9E9E" text-anchor="middle" font-weight="bold">Air Pollution</text>
+    <text x="150" y="15" font-family="Arial" font-size="10" fill="#9E9E9E" text-anchor="middle">Respiratory Issues</text>
+
+    <circle cx="300" cy="0" r="30" fill="rgba(76,175,80,0.4)" stroke="#4CAF50" stroke-width="3">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="300" y="8" font-family="Arial" font-size="20" fill="white" text-anchor="middle">🦟</text>
+    <text x="300" y="50" font-family="Arial" font-size="12" fill="#4CAF50" text-anchor="middle" font-weight="bold">Vector Diseases</text>
+    <text x="300" y="65" font-family="Arial" font-size="10" fill="#4CAF50" text-anchor="middle">Malaria • Dengue</text>
+
+    <circle cx="150" cy="100" r="30" fill="rgba(33,150,243,0.4)" stroke="#2196F3" stroke-width="3">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="150" y="108" font-family="Arial" font-size="20" fill="white" text-anchor="middle">💧</text>
+    <text x="150" y="150" font-family="Arial" font-size="12" fill="#2196F3" text-anchor="middle" font-weight="bold">Water Scarcity</text>
+    <text x="150" y="165" font-family="Arial" font-size="10" fill="#2196F3" text-anchor="middle">Waterborne Illness</text>
+  </g>
+
+  <g id="health-vulnerabilities" transform="translate(600, 180)">
+
+    <rect x="0" y="0" width="80" height="50" rx="8" fill="rgba(255,193,7,0.3)" stroke="#FFC107" stroke-width="2"/>
+    <text x="40" y="20" font-family="Arial" font-size="14" fill="white" text-anchor="middle">👶</text>
+    <text x="40" y="35" font-family="Arial" font-size="10" fill="#FFC107" text-anchor="middle" font-weight="bold">Children</text>
+
+    <rect x="0" y="70" width="80" height="50" rx="8" fill="rgba(156,39,176,0.3)" stroke="#9C27B0" stroke-width="2"/>
+    <text x="40" y="90" font-family="Arial" font-size="14" fill="white" text-anchor="middle">👴</text>
+    <text x="40" y="105" font-family="Arial" font-size="10" fill="#9C27B0" text-anchor="middle" font-weight="bold">Elderly</text>
+
+    <rect x="0" y="140" width="80" height="50" rx="8" fill="rgba(244,67,54,0.3)" stroke="#F44336" stroke-width="2"/>
+    <text x="40" y="160" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🏥</text>
+    <text x="40" y="175" font-family="Arial" font-size="10" fill="#F44336" text-anchor="middle" font-weight="bold">Chronic Illness</text>
+
+    <rect x="0" y="210" width="80" height="50" rx="8" fill="rgba(255,152,0,0.3)" stroke="#FF9800" stroke-width="2"/>
+    <text x="40" y="230" font-family="Arial" font-size="14" fill="white" text-anchor="middle">👷</text>
+    <text x="40" y="245" font-family="Arial" font-size="10" fill="#FF9800" text-anchor="middle" font-weight="bold">Outdoor Workers</text>
+  </g>
+
+  <g id="healthcare-system" transform="translate(400, 300)">
+
+    <circle cx="0" cy="0" r="50" fill="url(#healthGradient)" stroke="#4CAF50" stroke-width="4" filter="url(#glow)"/>
+    <text x="0" y="-10" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">🏥</text>
+    <text x="0" y="10" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Climate</text>
+    <text x="0" y="25" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Health Hub</text>
+
+    <circle cx="-60" cy="-60" r="15" fill="rgba(255,193,7,0.6)" stroke="#FFC107" stroke-width="2">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="-60" y="-55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">⚠️</text>
+    <text x="-60" y="-35" font-family="Arial" font-size="8" fill="#FFC107" text-anchor="middle">Early Warning</text>
+
+    <circle cx="60" cy="-60" r="15" fill="rgba(244,67,54,0.6)" stroke="#F44336" stroke-width="2">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="60" y="-55" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🚨</text>
+    <text x="60" y="-35" font-family="Arial" font-size="8" fill="#F44336" text-anchor="middle">Emergency</text>
+
+    <circle cx="-60" cy="60" r="15" fill="rgba(76,175,80,0.6)" stroke="#4CAF50" stroke-width="2">
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="-60" y="65" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🛡️</text>
+    <text x="-60" y="85" font-family="Arial" font-size="8" fill="#4CAF50" text-anchor="middle">Prevention</text>
+
+    <circle cx="60" cy="60" r="15" fill="rgba(33,150,243,0.6)" stroke="#2196F3" stroke-width="2">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="60" y="65" font-family="Arial" font-size="12" fill="white" text-anchor="middle">💊</text>
+    <text x="60" y="85" font-family="Arial" font-size="8" fill="#2196F3" text-anchor="middle">Treatment</text>
+  </g>
+
+  <g id="climate-data" transform="translate(100, 450)">
+    <rect x="0" y="0" width="120" height="80" rx="10" fill="rgba(255,255,255,0.1)" stroke="#1976D2" stroke-width="2"/>
+    <text x="60" y="20" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Climate Data</text>
+    <text x="60" y="35" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Integration</text>
+
+    <circle cx="20" cy="55" r="6" fill="#FF7043">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="20" y="73" font-family="Arial" font-size="8" fill="#FF7043" text-anchor="middle">Temp</text>
+
+    <circle cx="40" cy="55" r="6" fill="#2196F3">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="73" font-family="Arial" font-size="8" fill="#2196F3" text-anchor="middle">Air</text>
+
+    <circle cx="60" cy="55" r="6" fill="#4CAF50">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="60" y="73" font-family="Arial" font-size="8" fill="#4CAF50" text-anchor="middle">Water</text>
+
+    <circle cx="80" cy="55" r="6" fill="#9C27B0">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="80" y="73" font-family="Arial" font-size="8" fill="#9C27B0" text-anchor="middle">UV</text>
+
+    <circle cx="100" cy="55" r="6" fill="#FF9800">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="100" y="73" font-family="Arial" font-size="8" fill="#FF9800" text-anchor="middle">Pollen</text>
+  </g>
+
+  <g id="coverage-areas" transform="translate(250, 480)">
+    <rect x="0" y="0" width="500" height="100" rx="10" fill="rgba(255,255,255,0.1)" stroke="#1976D2" stroke-width="2"/>
+    <text x="20" y="20" font-family="Arial" font-size="14" fill="white" font-weight="bold">Climate Health Insurance Coverage:</text>
+
+    <text x="20" y="40" font-family="Arial" font-size="12" fill="#4CAF50">• Climate-Related Emergency Care</text>
+    <text x="250" y="40" font-family="Arial" font-size="12" fill="#4CAF50">• Heat Illness Treatment</text>
+    <text x="420" y="40" font-family="Arial" font-size="12" fill="#4CAF50">• Air Quality Monitoring</text>
+
+    <text x="20" y="55" font-family="Arial" font-size="12" fill="#2196F3">• Vector Disease Prevention</text>
+    <text x="250" y="55" font-family="Arial" font-size="12" fill="#2196F3">• Mental Health Support</text>
+    <text x="420" y="55" font-family="Arial" font-size="12" fill="#2196F3">• Medication Access</text>
+
+    <text x="20" y="70" font-family="Arial" font-size="12" fill="#FF7043">• Vulnerable Population Support</text>
+    <text x="250" y="70" font-family="Arial" font-size="12" fill="#FF7043">• Climate Migration Health</text>
+    <text x="420" y="70" font-family="Arial" font-size="12" fill="#FF7043">• Adaptive Technologies</text>
+
+    <text x="20" y="85" font-family="Arial" font-size="12" fill="#FFC107">• Preventive Care Programs</text>
+    <text x="250" y="85" font-family="Arial" font-size="12" fill="#FFC107">• Community Resilience</text>
+    <text x="420" y="85" font-family="Arial" font-size="12" fill="#FFC107">• Research &amp; Innovation</text>
+  </g>
+
+  <text x="400" y="60" font-family="Arial" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Climate Health Insurance</text>
+  <text x="400" y="90" font-family="Arial" font-size="18" fill="#1976D2" text-anchor="middle">Protecting Health in a Changing Climate</text>
+
+  <g id="connections">
+    <line x1="300" y1="250" x2="350" y2="280" stroke="#FF5722" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="8,4;12,0;8,4" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="450" y1="280" x2="600" y2="220" stroke="#4CAF50" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="0,8;8,12;0,8" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="220" y1="450" x2="350" y2="350" stroke="#1976D2" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="8,4;12,0;8,4" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g id="environmental-indicators">
+    <circle cx="50" cy="100" r="3" fill="#FF7043">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="400" r="3" fill="#2196F3">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="550" r="3" fill="#4CAF50">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

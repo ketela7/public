@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#94A3B8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CBD5E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+
+  <circle cx="80" cy="30" r="25" fill="#64748B"/>
+  <circle cx="100" cy="25" r="30" fill="#475569"/>
+  <circle cx="120" cy="30" r="20" fill="#64748B"/>
+  <circle cx="140" cy="25" r="25" fill="#475569"/>
+
+  <circle cx="260" cy="35" r="20" fill="#64748B"/>
+  <circle cx="280" cy="30" r="25" fill="#475569"/>
+  <circle cx="300" cy="35" r="18" fill="#64748B"/>
+  <circle cx="320" cy="30" r="22" fill="#475569"/>
+
+  <g opacity="0.7">
+    <line x1="70" y1="55" x2="65" y2="80" stroke="#475569" stroke-width="3"/>
+    <line x1="85" y1="50" x2="80" y2="75" stroke="#475569" stroke-width="3"/>
+    <line x1="100" y1="55" x2="95" y2="80" stroke="#475569" stroke-width="3"/>
+    <line x1="115" y1="50" x2="110" y2="75" stroke="#475569" stroke-width="3"/>
+    <line x1="130" y1="55" x2="125" y2="80" stroke="#475569" stroke-width="3"/>
+    <line x1="145" y1="50" x2="140" y2="75" stroke="#475569" stroke-width="3"/>
+
+    <line x1="260" y1="55" x2="255" y2="80" stroke="#475569" stroke-width="3"/>
+    <line x1="275" y1="50" x2="270" y2="75" stroke="#475569" stroke-width="3"/>
+    <line x1="290" y1="55" x2="285" y2="80" stroke="#475569" stroke-width="3"/>
+    <line x1="305" y1="50" x2="300" y2="75" stroke="#475569" stroke-width="3"/>
+    <line x1="320" y1="55" x2="315" y2="80" stroke="#475569" stroke-width="3"/>
+    <line x1="335" y1="50" x2="330" y2="75" stroke="#475569" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(150,100)">
+
+    <rect x="0" y="30" width="100" height="80" fill="#8B4513"/>
+    <rect x="2" y="32" width="96" height="76" fill="#A0522D"/>
+
+    <polygon points="0,30 50,0 100,30" fill="#654321"/>
+    <polygon points="5,30 50,5 95,30" fill="#8B4513"/>
+
+    <rect x="15" y="45" width="15" height="15" fill="#F0F8FF"/>
+    <rect x="70" y="45" width="15" height="15" fill="#F0F8FF"/>
+    <line x1="22.5" y1="45" x2="22.5" y2="60" stroke="#8B4513" stroke-width="1"/>
+    <line x1="15" y1="52.5" x2="30" y2="52.5" stroke="#8B4513" stroke-width="1"/>
+    <line x1="77.5" y1="45" x2="77.5" y2="60" stroke="#8B4513" stroke-width="1"/>
+    <line x1="70" y1="52.5" x2="85" y2="52.5" stroke="#8B4513" stroke-width="1"/>
+
+    <rect x="42" y="75" width="16" height="35" fill="#654321"/>
+    <rect x="44" y="77" width="12" height="31" fill="#8B4513"/>
+    <circle cx="54" cy="93" r="1" fill="#F0F8FF"/>
+
+    <rect x="75" y="10" width="10" height="25" fill="#654321"/>
+  </g>
+
+  <path d="M0 200 Q100 195 200 200 T400 200 L400 300 L0 300 Z" fill="url(#waterGradient)"/>
+
+  <path d="M0 195 Q50 190 100 195 T200 195 T300 195 T400 195" stroke="#60A5FA" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M0 205 Q50 200 100 205 T200 205 T300 205 T400 205" stroke="#60A5FA" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M0 215 Q50 210 100 215 T200 215 T300 215 T400 215" stroke="#60A5FA" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <g transform="translate(80,190)">
+    <rect x="0" y="0" width="40" height="15" rx="3" fill="#DC2626"/>
+    <rect x="2" y="2" width="36" height="11" rx="2" fill="#EF4444"/>
+    <rect x="8" y="4" width="8" height="6" fill="#F0F8FF"/>
+    <rect x="24" y="4" width="8" height="6" fill="#F0F8FF"/>
+    <circle cx="8" cy="16" r="4" fill="#1F2937"/>
+    <circle cx="32" cy="16" r="4" fill="#1F2937"/>
+  </g>
+
+  <g transform="translate(320,120)">
+    <polygon points="0,0 15,25 -15,25" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    <text x="0" y="20" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">!</text>
+  </g>
+
+  <g transform="translate(50,150)">
+    <path d="M0 0 L15 8 L15 30 L0 45 L-15 30 L-15 8 Z" fill="#059669" stroke="#047857" stroke-width="2"/>
+    <path d="M0 5 L10 12 L10 28 L0 38 L-10 28 L-10 12 Z" fill="#34D399"/>
+    <text x="0" y="25" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">NFIP</text>
+  </g>
+
+  <g transform="translate(300,180)">
+    <rect x="0" y="0" width="30" height="20" rx="2" fill="#EF4444"/>
+    <rect x="2" y="2" width="26" height="16" rx="1" fill="#FEF2F2"/>
+    <text x="15" y="14" font-family="Arial" font-size="8" fill="#DC2626" text-anchor="middle" font-weight="bold">EXIT</text>
+    <path d="M15 22 L20 30 L10 30 Z" fill="#EF4444"/>
+  </g>
+
+  <g transform="translate(350,100)">
+    <rect x="0" y="0" width="8" height="100" fill="#F1F5F9" stroke="#CBD5E0" stroke-width="1"/>
+    <rect x="1" y="80" width="6" height="19" fill="#3B82F6"/>
+    <text x="15" y="95" font-family="Arial" font-size="8" fill="#1E40AF">Water Level</text>
+  </g>
+
+  <text x="200" y="280" font-family="Arial" font-size="16" fill="#F1F5F9" text-anchor="middle" font-weight="bold">Flood Insurance Coverage</text>
+</svg>

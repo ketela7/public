@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6A5ACD;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <ellipse cx="400" cy="180" rx="80" ry="40" fill="#2F4F4F" stroke="#4682B4" stroke-width="3"/>
+  <rect x="350" y="160" width="100" height="40" rx="20" fill="#4682B4"/>
+  <circle cx="370" cy="180" r="15" fill="#00FFFF" filter="url(#glow)"/>
+  <circle cx="430" cy="180" r="15" fill="#00FFFF" filter="url(#glow)"/>
+
+  <circle cx="250" cy="300" r="40" fill="#FF69B4" stroke="#FF1493" stroke-width="3"/>
+  <rect x="220" y="340" width="60" height="80" rx="15" fill="#8A2BE2"/>
+  <circle cx="235" cy="285" r="5" fill="#00FFFF"/>
+  <circle cx="265" cy="285" r="5" fill="#00FFFF"/>
+
+  <rect x="450" y="250" width="120" height="150" fill="#4169E1" stroke="#2F4F4F" stroke-width="3"/>
+  <rect x="470" y="270" width="20" height="20" fill="#87CEEB"/>
+  <rect x="500" y="270" width="20" height="20" fill="#87CEEB"/>
+  <rect x="530" y="270" width="20" height="20" fill="#87CEEB"/>
+  <rect x="470" y="300" width="20" height="20" fill="#87CEEB"/>
+  <rect x="500" y="300" width="20" height="20" fill="#87CEEB"/>
+  <rect x="530" y="300" width="20" height="20" fill="#87CEEB"/>
+
+  <rect x="600" y="200" width="100" height="100" fill="#FFD700" stroke="#FFA500" stroke-width="4"/>
+  <rect x="610" y="210" width="80" height="80" fill="#9370DB"/>
+  <text x="650" y="260" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="24" font-weight="bold">NFT</text>
+
+  <path d="M150 400 L180 415 L180 465 L150 480 L120 465 L120 415 Z" fill="#32CD32" stroke="#228B22" stroke-width="3"/>
+  <text x="150" y="450" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18" font-weight="bold">ID</text>
+
+  <g stroke="#00FFFF" stroke-width="2" fill="none" opacity="0.7">
+    <circle cx="300" cy="450" r="15" stroke="#00FFFF" fill="#1a1a2e"/>
+    <circle cx="350" cy="480" r="15" stroke="#00FFFF" fill="#1a1a2e"/>
+    <circle cx="400" cy="420" r="15" stroke="#00FFFF" fill="#1a1a2e"/>
+    <line x1="300" y1="450" x2="350" y2="480"/>
+    <line x1="350" y1="480" x2="400" y2="420"/>
+    <line x1="400" y1="420" x2="300" y2="450"/>
+  </g>
+
+  <circle cx="600" cy="450" r="25" fill="#FFD700" stroke="#FFA500" stroke-width="3"/>
+  <text x="600" y="460" text-anchor="middle" fill="#000000" font-family="Arial" font-size="20" font-weight="bold">₿</text>
+
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="26" font-weight="bold">Metaverse Business Identity</text>
+  <text x="400" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="26" font-weight="bold">Insurance</text>
+  <text x="400" y="550" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18">Digital Reputation Protection</text>
+
+  <rect x="50" y="50" width="110" height="30" rx="15" fill="#9370DB" opacity="0.9"/>
+  <text x="105" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">METAVERSE</text>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6A5ACD;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <circle cx="400" cy="200" r="80" fill="#8A2BE2" stroke="#9932CC" stroke-width="3"/>
+
+  <circle cx="370" cy="180" r="12" fill="#00FFFF" filter="url(#glow)"/>
+  <circle cx="430" cy="180" r="12" fill="#00FFFF" filter="url(#glow)"/>
+
+  <rect x="380" y="210" width="40" height="8" rx="4" fill="#00FFFF"/>
+
+  <rect x="320" y="280" width="160" height="120" rx="20" fill="#8A2BE2" stroke="#9932CC" stroke-width="3"/>
+
+  <rect x="260" y="300" width="60" height="20" rx="10" fill="#8A2BE2"/>
+  <rect x="480" y="300" width="60" height="20" rx="10" fill="#8A2BE2"/>
+
+  <circle cx="260" cy="310" r="15" fill="#9932CC"/>
+  <circle cx="540" cy="310" r="15" fill="#9932CC"/>
+
+  <path d="M400 350 L420 360 L420 380 L400 390 L380 380 L380 360 Z" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+  <text x="400" y="380" text-anchor="middle" fill="#000" font-family="Arial" font-size="16" font-weight="bold">$</text>
+
+  <g stroke="#00FFFF" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M100 100 L150 100 L150 150 L200 150"/>
+    <path d="M600 100 L650 100 L650 150 L700 150"/>
+    <path d="M100 500 L150 500 L150 450 L200 450"/>
+    <path d="M600 500 L650 500 L650 450 L700 450"/>
+  </g>
+
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="28" font-weight="bold">AI Robot Personal Liability</text>
+  <text x="400" y="480" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18">Insurance Protection</text>
+
+  <rect x="50" y="50" width="120" height="30" rx="15" fill="#FF69B4" opacity="0.9"/>
+  <text x="110" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="14" font-weight="bold">FUTURE TECH</text>
+</svg>

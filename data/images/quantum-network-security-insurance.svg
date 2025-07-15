@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0A23;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1A1A3E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D1B69;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="quantumGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8A2BE2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="networkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF1493;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00BFFF;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="quantumGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <g id="quantum-network" transform="translate(400, 300)">
+
+    <circle cx="0" cy="0" r="50" fill="url(#quantumGradient)" stroke="#00FFFF" stroke-width="4" filter="url(#quantumGlow)">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-10" font-family="Arial" font-size="18" fill="white" text-anchor="middle" font-weight="bold">⚛️</text>
+    <text x="0" y="10" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Quantum</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Hub</text>
+
+    <g id="node1" transform="translate(-150, -100)">
+      <circle cx="0" cy="0" r="25" fill="rgba(0,255,255,0.4)" stroke="#00FFFF" stroke-width="2" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🔬</text>
+      <text x="0" y="40" font-family="Arial" font-size="10" fill="#00FFFF" text-anchor="middle" font-weight="bold">Lab Node</text>
+    </g>
+
+    <g id="node2" transform="translate(150, -100)">
+      <circle cx="0" cy="0" r="25" fill="rgba(138,43,226,0.4)" stroke="#8A2BE2" stroke-width="2" filter="url(#glow)">
+        <animate attributeName="opacity" values="1;0.6;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🏢</text>
+      <text x="0" y="40" font-family="Arial" font-size="10" fill="#8A2BE2" text-anchor="middle" font-weight="bold">Corp Node</text>
+    </g>
+
+    <g id="node3" transform="translate(-150, 100)">
+      <circle cx="0" cy="0" r="25" fill="rgba(255,20,147,0.4)" stroke="#FF1493" stroke-width="2" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🏛️</text>
+      <text x="0" y="40" font-family="Arial" font-size="10" fill="#FF1493" text-anchor="middle" font-weight="bold">Gov Node</text>
+    </g>
+
+    <g id="node4" transform="translate(150, 100)">
+      <circle cx="0" cy="0" r="25" fill="rgba(0,191,255,0.4)" stroke="#00BFFF" stroke-width="2" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="5" font-family="Arial" font-size="14" fill="white" text-anchor="middle">☁️</text>
+      <text x="0" y="40" font-family="Arial" font-size="10" fill="#00BFFF" text-anchor="middle" font-weight="bold">Cloud Node</text>
+    </g>
+
+    <g id="node5" transform="translate(0, -150)">
+      <circle cx="0" cy="0" r="20" fill="rgba(50,205,50,0.4)" stroke="#32CD32" stroke-width="2">
+        <animate attributeName="opacity" values="0.6;0.9;0.6" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🌐</text>
+      <text x="0" y="35" font-family="Arial" font-size="8" fill="#32CD32" text-anchor="middle">Satellite</text>
+    </g>
+
+    <g id="node6" transform="translate(0, 150)">
+      <circle cx="0" cy="0" r="20" fill="rgba(255,69,0,0.4)" stroke="#FF4500" stroke-width="2">
+        <animate attributeName="opacity" values="0.9;0.6;0.9" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="0" y="5" font-family="Arial" font-size="12" fill="white" text-anchor="middle">🏠</text>
+      <text x="0" y="35" font-family="Arial" font-size="8" fill="#FF4500" text-anchor="middle">IoT Hub</text>
+    </g>
+  </g>
+
+  <g id="quantum-connections">
+    <line x1="250" y1="200" x2="350" y2="250" stroke="url(#quantumGradient)" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="8,4;16,0;8,4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="550" y1="200" x2="450" y2="250" stroke="url(#quantumGradient)" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="0,8;16,4;0,8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="250" y1="400" x2="350" y2="350" stroke="url(#quantumGradient)" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="8,4;16,0;8,4" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="550" y1="400" x2="450" y2="350" stroke="url(#quantumGradient)" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="0,8;16,4;0,8" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="150" x2="400" y2="250" stroke="url(#quantumGradient)" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="8,4;16,0;8,4" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="450" x2="400" y2="350" stroke="url(#quantumGradient)" stroke-width="3" stroke-dasharray="8,4">
+      <animate attributeName="stroke-dasharray" values="0,8;16,4;0,8" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g id="quantum-threats" transform="translate(100, 100)">
+
+    <circle cx="0" cy="0" r="30" fill="rgba(220,20,60,0.4)" stroke="#DC143C" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="30;35;30" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-5" font-family="Arial" font-size="16" fill="white" text-anchor="middle">🔓</text>
+    <text x="0" y="10" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Quantum</text>
+    <text x="0" y="50" font-family="Arial" font-size="10" fill="#DC143C" text-anchor="middle" font-weight="bold">Decryption Attack</text>
+
+    <circle cx="0" cy="120" r="30" fill="rgba(255,165,0,0.4)" stroke="#FFA500" stroke-width="2">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="30;35;30" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="115" font-family="Arial" font-size="16" fill="white" text-anchor="middle">⚡</text>
+    <text x="0" y="130" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Decoherence</text>
+    <text x="0" y="170" font-family="Arial" font-size="10" fill="#FFA500" text-anchor="middle" font-weight="bold">Network Disruption</text>
+
+    <circle cx="0" cy="240" r="30" fill="rgba(138,43,226,0.4)" stroke="#8A2BE2" stroke-width="2">
+      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="30;35;30" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="235" font-family="Arial" font-size="16" fill="white" text-anchor="middle">👻</text>
+    <text x="0" y="250" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Spoofing</text>
+    <text x="0" y="290" font-family="Arial" font-size="10" fill="#8A2BE2" text-anchor="middle" font-weight="bold">Identity Theft</text>
+  </g>
+
+  <g id="security-measures" transform="translate(650, 150)">
+
+    <rect x="0" y="0" width="100" height="60" rx="8" fill="rgba(0,255,127,0.3)" stroke="#00FF7F" stroke-width="2"/>
+    <text x="50" y="20" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🔐</text>
+    <text x="50" y="35" font-family="Arial" font-size="10" fill="#00FF7F" text-anchor="middle" font-weight="bold">Quantum</text>
+    <text x="50" y="48" font-family="Arial" font-size="10" fill="#00FF7F" text-anchor="middle" font-weight="bold">Encryption</text>
+
+    <rect x="0" y="80" width="100" height="60" rx="8" fill="rgba(255,20,147,0.3)" stroke="#FF1493" stroke-width="2"/>
+    <text x="50" y="100" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🗝️</text>
+    <text x="50" y="115" font-family="Arial" font-size="10" fill="#FF1493" text-anchor="middle" font-weight="bold">Key</text>
+    <text x="50" y="128" font-family="Arial" font-size="10" fill="#FF1493" text-anchor="middle" font-weight="bold">Distribution</text>
+
+    <rect x="0" y="160" width="100" height="60" rx="8" fill="rgba(0,191,255,0.3)" stroke="#00BFFF" stroke-width="2"/>
+    <text x="50" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle">🔧</text>
+    <text x="50" y="195" font-family="Arial" font-size="10" fill="#00BFFF" text-anchor="middle" font-weight="bold">Error</text>
+    <text x="50" y="208" font-family="Arial" font-size="10" fill="#00BFFF" text-anchor="middle" font-weight="bold">Correction</text>
+
+    <rect x="0" y="240" width="100" height="60" rx="8" fill="rgba(255,215,0,0.3)" stroke="#FFD700" stroke-width="2"/>
+    <text x="50" y="260" font-family="Arial" font-size="14" fill="white" text-anchor="middle">✅</text>
+    <text x="50" y="275" font-family="Arial" font-size="10" fill="#FFD700" text-anchor="middle" font-weight="bold">Quantum</text>
+    <text x="50" y="288" font-family="Arial" font-size="10" fill="#FFD700" text-anchor="middle" font-weight="bold">Auth</text>
+  </g>
+
+  <g id="coverage-areas" transform="translate(50, 480)">
+    <rect x="0" y="0" width="700" height="100" rx="10" fill="rgba(255,255,255,0.1)" stroke="#00FFFF" stroke-width="2"/>
+    <text x="20" y="20" font-family="Arial" font-size="14" fill="white" font-weight="bold">Quantum Network Security Insurance Coverage:</text>
+
+    <text x="20" y="40" font-family="Arial" font-size="12" fill="#00FFFF">• Quantum Decryption Attacks</text>
+    <text x="220" y="40" font-family="Arial" font-size="12" fill="#00FFFF">• Network Decoherence Events</text>
+    <text x="420" y="40" font-family="Arial" font-size="12" fill="#00FFFF">• Quantum Key Compromise</text>
+    <text x="620" y="40" font-family="Arial" font-size="12" fill="#00FFFF">• Identity Spoofing</text>
+
+    <text x="20" y="55" font-family="Arial" font-size="12" fill="#8A2BE2">• Hardware Tampering</text>
+    <text x="220" y="55" font-family="Arial" font-size="12" fill="#8A2BE2">• Protocol Vulnerabilities</text>
+    <text x="420" y="55" font-family="Arial" font-size="12" fill="#8A2BE2">• Side-channel Attacks</text>
+    <text x="620" y="55" font-family="Arial" font-size="12" fill="#8A2BE2">• System Recovery</text>
+
+    <text x="20" y="70" font-family="Arial" font-size="12" fill="#FF1493">• Research &amp; Development</text>
+    <text x="220" y="70" font-family="Arial" font-size="12" fill="#FF1493">• Compliance Support</text>
+    <text x="420" y="70" font-family="Arial" font-size="12" fill="#FF1493">• Emergency Response</text>
+    <text x="620" y="70" font-family="Arial" font-size="12" fill="#FF1493">• Legal Protection</text>
+
+    <text x="20" y="85" font-family="Arial" font-size="12" fill="#00BFFF">• Post-Quantum Migration</text>
+    <text x="220" y="85" font-family="Arial" font-size="12" fill="#00BFFF">• Threat Intelligence</text>
+    <text x="420" y="85" font-family="Arial" font-size="12" fill="#00BFFF">• Incident Investigation</text>
+    <text x="620" y="85" font-family="Arial" font-size="12" fill="#00BFFF">• Business Continuity</text>
+  </g>
+
+  <text x="400" y="60" font-family="Arial" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Quantum Network Security Insurance</text>
+  <text x="400" y="90" font-family="Arial" font-size="18" fill="#00FFFF" text-anchor="middle">Protecting Against Next-Generation Cyber Threats</text>
+
+  <g id="quantum-states">
+
+    <circle cx="50" cy="300" r="4" fill="#00FFFF">
+      <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="200" r="4" fill="#8A2BE2">
+      <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="450" r="4" fill="#FF1493">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="150" r="4" fill="#00BFFF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g id="interference-patterns" transform="translate(400, 300)">
+    <path d="M -200 0 Q -100 -20 0 0 Q 100 20 200 0" stroke="#00FFFF" stroke-width="1" fill="none" opacity="0.3">
+      <animate attributeName="d" values="M -200 0 Q -100 -20 0 0 Q 100 20 200 0;M -200 0 Q -100 20 0 0 Q 100 -20 200 0;M -200 0 Q -100 -20 0 0 Q 100 20 200 0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M -200 0 Q -100 20 0 0 Q 100 -20 200 0" stroke="#8A2BE2" stroke-width="1" fill="none" opacity="0.3">
+      <animate attributeName="d" values="M -200 0 Q -100 20 0 0 Q 100 -20 200 0;M -200 0 Q -100 -20 0 0 Q 100 20 200 0;M -200 0 Q -100 20 0 0 Q 100 -20 200 0" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
